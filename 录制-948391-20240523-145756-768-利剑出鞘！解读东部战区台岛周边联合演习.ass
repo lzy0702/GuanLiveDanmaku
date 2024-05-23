@@ -1,0 +1,2730 @@
+[Script Info]
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 1920
+PlayResY: 1080
+Timer: 100.0000
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+
+Style: R2L,Microsoft YaHei,64,&H40FFFFFF,&H00FFFFFF,&H00000000,&H1E6A5149,1,0,0,0,100.00,100.00,0.00,0.00,1,0,2,8,0,0,0,1
+Style: L2R,Microsoft YaHei,64,&H40FFFFFF,&H00FFFFFF,&H00000000,&H1E6A5149,1,0,0,0,100.00,100.00,0.00,0.00,1,0,2,8,0,0,0,1
+Style: TOP,Microsoft YaHei,64,&H40FFFFFF,&H00FFFFFF,&H00000000,&H1E6A5149,1,0,0,0,100.00,100.00,0.00,0.00,1,0,2,8,0,0,0,1
+Style: BTM,Microsoft YaHei,64,&H40FFFFFF,&H00FFFFFF,&H00000000,&H1E6A5149,1,0,0,0,100.00,100.00,0.00,0.00,1,0,2,8,0,0,0,1
+Style: SP,Microsoft YaHei,64,&H00FFFFFF,&H00FFFFFF,&H00000000,&H1E6A5149,1,0,0,0,100.00,100.00,0.00,0.00,1,0,2,7,0,0,0,1
+Style: message_box,Microsoft YaHei,38,&H00FFFFFF,&H00FFFFFF,&H00000000,&H1E6A5149,1,0,0,0,100.00,100.00,0.00,0.00,1,0,2,7,0,0,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:04.67,0:00:16.67,R2L,,0000,0000,0000,,{\move(1984,1,-64,1)\q2\fs64}{\c&HDEC158}打卡
+Dialogue: 0,0:00:15.07,0:00:27.07,R2L,,0000,0000,0000,,{\move(2048,1,-128,1)\q2\fs64}{\c&HDEC158}稳住能赢
+Dialogue: 0,0:00:35.88,0:00:47.88,R2L,,0000,0000,0000,,{\move(2048,1,-128,1)\q2\fs64}{\c&HDEC158}来了来了
+Dialogue: 0,0:00:46.27,0:00:58.27,R2L,,0000,0000,0000,,{\move(1984,1,-64,1)\q2\fs64}{\c&HD8EE54}upup
+Dialogue: 0,0:00:52.77,0:01:04.77,R2L,,0000,0000,0000,,{\move(1984,1,-64,1)\q2\fs64}{\c&HDEC158}冲鸭
+Comment: NO.6:unknow type
+Comment: NO.7:unknow type
+Comment: NO.8:unknow type
+Comment: NO.9:unknow type
+Comment: NO.10:unknow type
+Comment: NO.11:unknow type
+Comment: NO.12:unknow type
+Comment: NO.13:unknow type
+Comment: NO.14:unknow type
+Comment: NO.15:unknow type
+Comment: NO.16:unknow type
+Comment: NO.17:unknow type
+Comment: NO.18:unknow type
+Comment: NO.19:unknow type
+Comment: NO.20:unknow type
+Comment: NO.21:unknow type
+Comment: NO.22:unknow type
+Comment: NO.23:unknow type
+Comment: NO.24:unknow type
+Comment: NO.25:unknow type
+Comment: NO.26:unknow type
+Comment: NO.27:unknow type
+Comment: NO.28:unknow type
+Comment: NO.29:unknow type
+Comment: NO.30:unknow type
+Comment: NO.31:unknow type
+Comment: NO.32:unknow type
+Comment: NO.33:unknow type
+Comment: NO.34:unknow type
+Comment: NO.35:unknow type
+Comment: NO.36:unknow type
+Comment: NO.37:unknow type
+Comment: NO.38:unknow type
+Comment: NO.39:unknow type
+Comment: NO.40:unknow type
+Comment: NO.41:unknow type
+Comment: NO.42:unknow type
+Comment: NO.43:unknow type
+Comment: NO.44:unknow type
+Comment: NO.45:unknow type
+Comment: NO.46:unknow type
+Comment: NO.47:unknow type
+Comment: NO.48:unknow type
+Comment: NO.49:unknow type
+Comment: NO.50:unknow type
+Comment: NO.51:unknow type
+Comment: NO.52:unknow type
+Comment: NO.53:unknow type
+Comment: NO.54:unknow type
+Comment: NO.55:unknow type
+Comment: NO.56:unknow type
+Comment: NO.57:unknow type
+Comment: NO.58:unknow type
+Comment: NO.59:unknow type
+Comment: NO.60:unknow type
+Comment: NO.61:unknow type
+Comment: NO.62:unknow type
+Comment: NO.63:unknow type
+Comment: NO.64:unknow type
+Comment: NO.65:unknow type
+Comment: NO.66:unknow type
+Comment: NO.67:unknow type
+Comment: NO.68:unknow type
+Dialogue: 0,0:01:16.18,0:01:28.18,R2L,,0000,0000,0000,,{\move(2048,1,-128,1)\q2\fs64}{\c&HDEC158}稳住能赢
+Dialogue: 0,0:01:18.77,0:01:30.77,R2L,,0000,0000,0000,,{\move(1984,1,-64,1)\q2\fs64}{\c&HDEC158}冲鸭
+Comment: NO.71:unknow type
+Comment: NO.72:unknow type
+Dialogue: 0,0:01:27.87,0:01:39.87,R2L,,0000,0000,0000,,{\move(2048,1,-128,1)\q2\fs64}{\c&HD8EE54}战斗警报
+Dialogue: 0,0:01:35.76,0:01:47.76,R2L,,0000,0000,0000,,{\move(1984,1,-64,1)\q2\fs64}{\c&HDEC158}冲鸭
+Dialogue: 0,0:01:35.76,0:01:47.76,R2L,,0000,0000,0000,,{\move(2048,65,-128,65)\q2\fs64}{\c&HD8EE54}战斗警报
+Dialogue: 0,0:01:39.57,0:01:51.57,R2L,,0000,0000,0000,,{\move(2048,1,-128,1)\q2\fs64}{\c&HDEC158}哈哈哈哈
+Comment: NO.77:unknow type
+Comment: NO.78:unknow type
+Comment: NO.79:unknow type
+Comment: NO.80:unknow type
+Comment: NO.81:unknow type
+Comment: NO.82:unknow type
+Comment: NO.83:unknow type
+Comment: NO.84:unknow type
+Comment: NO.85:unknow type
+Comment: NO.86:unknow type
+Comment: NO.87:unknow type
+Comment: NO.88:unknow type
+Comment: NO.89:unknow type
+Comment: NO.90:unknow type
+Dialogue: 0,0:01:46.07,0:01:58.07,R2L,,0000,0000,0000,,{\move(1952,1,-32,1)\q2\fs64}帅
+Comment: NO.92:unknow type
+Comment: NO.93:unknow type
+Comment: NO.94:unknow type
+Comment: NO.95:unknow type
+Comment: NO.96:unknow type
+Comment: NO.97:unknow type
+Comment: NO.98:unknow type
+Comment: NO.99:unknow type
+Comment: NO.100:unknow type
+Comment: NO.101:unknow type
+Comment: NO.102:unknow type
+Comment: NO.103:unknow type
+Comment: NO.104:unknow type
+Comment: NO.105:unknow type
+Comment: NO.106:unknow type
+Comment: NO.107:unknow type
+Comment: NO.108:unknow type
+Comment: NO.109:unknow type
+Comment: NO.110:unknow type
+Comment: NO.111:unknow type
+Comment: NO.112:unknow type
+Comment: NO.113:unknow type
+Comment: NO.114:unknow type
+Comment: NO.115:unknow type
+Comment: NO.116:unknow type
+Comment: NO.117:unknow type
+Comment: NO.118:unknow type
+Comment: NO.119:unknow type
+Comment: NO.120:unknow type
+Comment: NO.121:unknow type
+Comment: NO.122:unknow type
+Comment: NO.123:unknow type
+Comment: NO.124:unknow type
+Comment: NO.125:unknow type
+Comment: NO.126:unknow type
+Comment: NO.127:unknow type
+Comment: NO.128:unknow type
+Comment: NO.129:unknow type
+Comment: NO.130:unknow type
+Comment: NO.131:unknow type
+Comment: NO.132:unknow type
+Comment: NO.133:unknow type
+Comment: NO.134:unknow type
+Comment: NO.135:unknow type
+Comment: NO.136:unknow type
+Comment: NO.137:unknow type
+Comment: NO.138:unknow type
+Comment: NO.139:unknow type
+Comment: NO.140:unknow type
+Comment: NO.141:unknow type
+Comment: NO.142:unknow type
+Dialogue: 0,0:02:02.97,0:02:14.97,R2L,,0000,0000,0000,,{\move(2016,1,-96,1)\q2\fs64}{\c&HD8EE54}忠诚！
+Comment: NO.144:unknow type
+Comment: NO.145:unknow type
+Comment: NO.146:unknow type
+Dialogue: 0,0:02:04.28,0:02:16.28,R2L,,0000,0000,0000,,{\move(2080,65,-160,65)\q2\fs64}{\c&HD8EE54}施佬加班了
+Dialogue: 0,0:02:04.28,0:02:16.28,R2L,,0000,0000,0000,,{\move(2048,129,-128,129)\q2\fs64}{\c&HD8EE54}来了来了
+Comment: NO.149:unknow type
+Comment: NO.150:unknow type
+Comment: NO.151:unknow type
+Comment: NO.152:unknow type
+Comment: NO.153:unknow type
+Comment: NO.154:unknow type
+Comment: NO.155:unknow type
+Comment: NO.156:unknow type
+Comment: NO.157:unknow type
+Comment: NO.158:unknow type
+Comment: NO.159:unknow type
+Comment: NO.160:unknow type
+Comment: NO.161:unknow type
+Comment: NO.162:unknow type
+Dialogue: 0,0:02:06.87,0:02:18.87,R2L,,0000,0000,0000,,{\move(2016,1,-96,1)\q2\fs64}忠诚！
+Comment: NO.164:unknow type
+Dialogue: 0,0:02:09.47,0:02:21.47,R2L,,0000,0000,0000,,{\move(2272,65,-352,65)\q2\fs64}我去，一觉醒来看到这个
+Dialogue: 0,0:02:13.38,0:02:25.38,R2L,,0000,0000,0000,,{\move(2016,1,-96,1)\q2\fs64}{\c&HD8EE54}开播辣
+Dialogue: 0,0:02:13.38,0:02:25.38,R2L,,0000,0000,0000,,{\move(1984,65,-64,65)\q2\fs64}卡卡
+Dialogue: 0,0:02:13.38,0:02:25.38,R2L,,0000,0000,0000,,{\move(2080,129,-160,129)\q2\fs64}{\c&HD8EE54}惊不惊喜！
+Dialogue: 0,0:02:15.97,0:02:27.97,R2L,,0000,0000,0000,,{\move(2240,193,-320,193)\q2\fs64}{\c&HDEC158}哈哈哈哈哈哈，来来来
+Dialogue: 0,0:02:17.27,0:02:29.27,R2L,,0000,0000,0000,,{\move(2016,1,-96,1)\q2\fs64}忠诚！
+Dialogue: 0,0:02:22.47,0:02:34.47,R2L,,0000,0000,0000,,{\move(2032,1,-112,1)\q2\fs64}{\c&HDEC158}加班ing
+Dialogue: 0,0:02:22.47,0:02:34.47,R2L,,0000,0000,0000,,{\move(1984,65,-64,65)\q2\fs64}{\c&HD8EE54}打卡
+Dialogue: 0,0:02:23.77,0:02:35.77,R2L,,0000,0000,0000,,{\move(2112,129,-192,129)\q2\fs64}这么早就播了
+Dialogue: 0,0:02:25.07,0:02:37.07,R2L,,0000,0000,0000,,{\move(1936,1,-16,1)\q2\fs64}{\c&HDEC158}0
+Dialogue: 0,0:02:26.37,0:02:38.37,R2L,,0000,0000,0000,,{\move(1984,1,-64,1)\q2\fs64}{\c&HDEC158}来了
+Dialogue: 0,0:02:28.98,0:02:40.98,R2L,,0000,0000,0000,,{\move(2400,65,-480,65)\q2\fs64}天无二日！我心中只有一个太阳！
+Comment: NO.177:unknow type
+Comment: NO.178:unknow type
+Dialogue: 0,0:02:30.27,0:02:42.27,R2L,,0000,0000,0000,,{\move(2112,1,-192,1)\q2\fs64}{\c&HDEC158}咋不晚上播呀
+Comment: NO.180:unknow type
+Comment: NO.181:unknow type
+Comment: NO.182:unknow type
+Dialogue: 0,0:02:32.87,0:02:44.87,R2L,,0000,0000,0000,,{\move(1984,1,-64,1)\q2\fs64}{\c&HDEC158}冲鸭
+Comment: NO.184:unknow type
+Comment: NO.185:unknow type
+Comment: NO.186:unknow type
+Comment: NO.187:unknow type
+Comment: NO.188:unknow type
+Comment: NO.189:unknow type
+Comment: NO.190:unknow type
+Comment: NO.191:unknow type
+Comment: NO.192:unknow type
+Comment: NO.193:unknow type
+Comment: NO.194:unknow type
+Comment: NO.195:unknow type
+Comment: NO.196:unknow type
+Comment: NO.197:unknow type
+Comment: NO.198:unknow type
+Comment: NO.199:unknow type
+Comment: NO.200:unknow type
+Comment: NO.201:unknow type
+Comment: NO.202:unknow type
+Comment: NO.203:unknow type
+Comment: NO.204:unknow type
+Comment: NO.205:unknow type
+Comment: NO.206:unknow type
+Comment: NO.207:unknow type
+Comment: NO.208:unknow type
+Comment: NO.209:unknow type
+Comment: NO.210:unknow type
+Comment: NO.211:unknow type
+Comment: NO.212:unknow type
+Comment: NO.213:unknow type
+Comment: NO.214:unknow type
+Comment: NO.215:unknow type
+Comment: NO.216:unknow type
+Comment: NO.217:unknow type
+Comment: NO.218:unknow type
+Comment: NO.219:unknow type
+Comment: NO.220:unknow type
+Comment: NO.221:unknow type
+Dialogue: 0,0:02:48.48,0:03:00.48,R2L,,0000,0000,0000,,{\move(1984,1,-64,1)\q2\fs64}来啦
+Dialogue: 0,0:02:49.77,0:03:01.77,R2L,,0000,0000,0000,,{\move(2016,1,-96,1)\q2\fs64}突!发!
+Comment: NO.224:unknow type
+Comment: NO.225:unknow type
+Comment: NO.226:unknow type
+Comment: NO.227:unknow type
+Comment: NO.228:unknow type
+Comment: NO.229:unknow type
+Comment: NO.230:unknow type
+Comment: NO.231:unknow type
+Comment: NO.232:unknow type
+Comment: NO.233:unknow type
+Comment: NO.234:unknow type
+Comment: NO.235:unknow type
+Dialogue: 0,0:03:02.77,0:03:14.77,R2L,,0000,0000,0000,,{\move(1952,1,-32,1)\q2\fs64}{\c&HDEC158}啊
+Comment: NO.237:unknow type
+Comment: NO.238:unknow type
+Comment: NO.239:unknow type
+Comment: NO.240:unknow type
+Comment: NO.241:unknow type
+Comment: NO.242:unknow type
+Comment: NO.243:unknow type
+Comment: NO.244:unknow type
+Comment: NO.245:unknow type
+Comment: NO.246:unknow type
+Comment: NO.247:unknow type
+Comment: NO.248:unknow type
+Comment: NO.249:unknow type
+Comment: NO.250:unknow type
+Comment: NO.251:unknow type
+Comment: NO.252:unknow type
+Comment: NO.253:unknow type
+Comment: NO.254:unknow type
+Comment: NO.255:unknow type
+Comment: NO.256:unknow type
+Comment: NO.257:unknow type
+Comment: NO.258:unknow type
+Comment: NO.259:unknow type
+Comment: NO.260:unknow type
+Comment: NO.261:unknow type
+Comment: NO.262:unknow type
+Comment: NO.263:unknow type
+Comment: NO.264:unknow type
+Comment: NO.265:unknow type
+Comment: NO.266:unknow type
+Comment: NO.267:unknow type
+Comment: NO.268:unknow type
+Comment: NO.269:unknow type
+Comment: NO.270:unknow type
+Dialogue: 0,0:03:28.77,0:03:40.77,R2L,,0000,0000,0000,,{\move(1984,1,-64,1)\q2\fs64}{\c&HDEC158}冲鸭
+Dialogue: 0,0:03:30.08,0:03:42.08,R2L,,0000,0000,0000,,{\move(2080,65,-160,65)\q2\fs64}{\c&HDEC158}PT\h小媒体\h
+Comment: NO.273:unknow type
+Dialogue: 0,0:03:32.67,0:03:44.67,R2L,,0000,0000,0000,,{\move(2016,1,-96,1)\q2\fs64}{\c&HDEC158}吼吼吼
+Dialogue: 0,0:03:35.27,0:03:47.27,R2L,,0000,0000,0000,,{\move(1952,1,-32,1)\q2\fs64}{\c&HDEC158}咩
+Comment: NO.276:unknow type
+Comment: NO.277:unknow type
+Comment: NO.278:unknow type
+Comment: NO.279:unknow type
+Comment: NO.280:unknow type
+Comment: NO.281:unknow type
+Comment: NO.282:unknow type
+Comment: NO.283:unknow type
+Comment: NO.284:unknow type
+Comment: NO.285:unknow type
+Comment: NO.286:unknow type
+Comment: NO.287:unknow type
+Comment: NO.288:unknow type
+Comment: NO.289:unknow type
+Comment: NO.290:unknow type
+Comment: NO.291:unknow type
+Comment: NO.292:unknow type
+Comment: NO.293:unknow type
+Dialogue: 0,0:03:56.08,0:04:08.08,R2L,,0000,0000,0000,,{\move(2112,1,-192,1)\q2\fs64}{\c&HD8EE54}第二次海试了
+Comment: NO.295:unknow type
+Comment: NO.296:unknow type
+Comment: NO.297:unknow type
+Comment: NO.298:unknow type
+Comment: NO.299:unknow type
+Comment: NO.300:unknow type
+Comment: NO.301:unknow type
+Comment: NO.302:unknow type
+Comment: NO.303:unknow type
+Comment: NO.304:unknow type
+Comment: NO.305:unknow type
+Comment: NO.306:unknow type
+Comment: NO.307:unknow type
+Comment: NO.308:unknow type
+Dialogue: 0,0:04:14.28,0:04:26.28,R2L,,0000,0000,0000,,{\move(1984,1,-64,1)\q2\fs64}{\c&HDEC158}upup
+Comment: NO.310:unknow type
+Comment: NO.311:unknow type
+Comment: NO.312:unknow type
+Dialogue: 0,0:04:15.59,0:04:27.59,R2L,,0000,0000,0000,,{\move(2000,1,-80,1)\q2\fs64}{\c&HDEC158}侦\h查
+Comment: NO.314:unknow type
+Dialogue: 0,0:04:18.16,0:04:30.16,R2L,,0000,0000,0000,,{\move(2112,1,-192,1)\q2\fs64}{\c&HDEC158}晚上不播了？
+Dialogue: 0,0:04:19.48,0:04:31.48,R2L,,0000,0000,0000,,{\move(1968,65,-48,65)\q2\fs64}{\c&HD8EE54}0.0
+Dialogue: 0,0:04:28.57,0:04:40.57,R2L,,0000,0000,0000,,{\move(2048,1,-128,1)\q2\fs64}{\c&HDEC158}欧皇驾到
+Dialogue: 0,0:04:42.86,0:04:54.86,R2L,,0000,0000,0000,,{\move(2048,1,-128,1)\q2\fs64}{\c&H4FEDFF}我来迟了
+Comment: NO.319:unknow type
+Dialogue: 0,0:04:44.18,0:04:56.18,R2L,,0000,0000,0000,,{\move(1984,65,-64,65)\q2\fs64}{\c&HF65F45}忠诚
+Dialogue: 0,0:04:44.18,0:04:56.18,R2L,,0000,0000,0000,,{\move(2000,129,-80,129)\q2\fs64}{\c&HDEC158}Su-27
+Dialogue: 0,0:04:57.17,0:05:09.17,R2L,,0000,0000,0000,,{\move(1952,1,-32,1)\q2\fs64}{\c&HDEC158}？
+Dialogue: 0,0:04:59.77,0:05:11.77,R2L,,0000,0000,0000,,{\move(2496,65,-576,65)\q2\fs64}{\c&HDEC158}这回军演怎么没路人拍到部队运兵的视频
+Comment: NO.324:unknow type
+Comment: NO.325:unknow type
+Comment: NO.326:unknow type
+Dialogue: 0,0:05:06.27,0:05:18.27,R2L,,0000,0000,0000,,{\move(2176,1,-256,1)\q2\fs64}{\c&HDEC158}苏30正在穿越……
+Dialogue: 0,0:05:06.27,0:05:18.27,R2L,,0000,0000,0000,,{\move(1984,65,-64,65)\q2\fs64}{\c&HDEC158}忠诚
+Comment: NO.329:unknow type
+Dialogue: 0,0:05:08.88,0:05:20.88,R2L,,0000,0000,0000,,{\move(2112,1,-192,1)\q2\fs64}{\c&HD8EE54}晚上还播不播
+Comment: NO.331:unknow type
+Dialogue: 0,0:05:12.76,0:05:24.76,R2L,,0000,0000,0000,,{\move(1984,1,-64,1)\q2\fs64}忠诚
+Dialogue: 0,0:05:14.07,0:05:26.07,R2L,,0000,0000,0000,,{\move(1984,1,-64,1)\q2\fs64}{\c&HDEC158}打卡
+Comment: NO.334:unknow type
+Dialogue: 0,0:05:23.17,0:05:35.17,R2L,,0000,0000,0000,,{\move(1984,1,-64,1)\q2\fs64}{\c&HDEC158}忠诚
+Dialogue: 0,0:05:23.17,0:05:35.17,R2L,,0000,0000,0000,,{\move(2480,65,-560,65)\q2\fs64}有没有可能已经部署的差不多了0\h\h-\h0\h
+Comment: NO.337:unknow type
+Comment: NO.338:unknow type
+Comment: NO.339:unknow type
+Comment: NO.340:unknow type
+Comment: NO.341:unknow type
+Comment: NO.342:unknow type
+Comment: NO.343:unknow type
+Comment: NO.344:unknow type
+Comment: NO.345:unknow type
+Comment: NO.346:unknow type
+Dialogue: 0,0:05:30.97,0:05:42.97,R2L,,0000,0000,0000,,{\move(1984,1,-64,1)\q2\fs64}{\c&HDEC158}打卡
+Dialogue: 0,0:05:30.97,0:05:42.97,R2L,,0000,0000,0000,,{\move(2144,65,-224,65)\q2\fs64}{\c&HD8EE54}冷启动，启动！
+Dialogue: 0,0:05:42.67,0:05:54.67,R2L,,0000,0000,0000,,{\move(1984,1,-64,1)\q2\fs64}{\c&HDEC158}冲鸭
+Dialogue: 0,0:05:46.57,0:05:58.57,R2L,,0000,0000,0000,,{\move(2048,1,-128,1)\q2\fs64}那叫发癫
+Comment: NO.351:unknow type
+Dialogue: 0,0:05:53.07,0:06:05.07,R2L,,0000,0000,0000,,{\move(1984,1,-64,1)\q2\fs64}打卡
+Dialogue: 0,0:05:54.36,0:06:06.36,R2L,,0000,0000,0000,,{\move(2016,1,-96,1)\q2\fs64}{\c&HDEC158}加班？
+Dialogue: 0,0:05:59.57,0:06:11.57,R2L,,0000,0000,0000,,{\move(2224,1,-304,1)\q2\fs64}{\c&HDEC158}[巴老师的小号_生气]
+Dialogue: 0,0:06:08.68,0:06:20.68,R2L,,0000,0000,0000,,{\move(2128,1,-208,1)\q2\fs64}[罗小黑_大麦]
+Comment: NO.356:unknow type
+Dialogue: 0,0:06:25.57,0:06:37.57,R2L,,0000,0000,0000,,{\move(1984,1,-64,1)\q2\fs64}突袭
+Dialogue: 0,0:06:29.47,0:06:41.47,R2L,,0000,0000,0000,,{\move(2208,1,-288,1)\q2\fs64}{\c&HD8EE54}这怎么这个点开播？
+Dialogue: 0,0:06:32.06,0:06:44.06,R2L,,0000,0000,0000,,{\move(2224,65,-304,65)\q2\fs64}{\c&HDEC158}[大会员粉豆人_Emmm]
+Dialogue: 0,0:06:33.36,0:06:45.36,R2L,,0000,0000,0000,,{\move(1984,1,-64,1)\q2\fs64}{\c&HDEC158}打卡
+Dialogue: 0,0:06:39.87,0:06:51.87,R2L,,0000,0000,0000,,{\move(2016,1,-96,1)\q2\fs64}{\c&HDEC158}凯旋！
+Comment: NO.362:unknow type
+Dialogue: 0,0:06:47.67,0:06:59.67,R2L,,0000,0000,0000,,{\move(2224,1,-304,1)\q2\fs64}{\c&HDEC158}[小会员绿豆人_裂开]
+Dialogue: 0,0:06:48.97,0:07:00.97,R2L,,0000,0000,0000,,{\move(1984,65,-64,65)\q2\fs64}{\c&HDEC158}打卡
+Dialogue: 0,0:07:07.17,0:07:19.17,R2L,,0000,0000,0000,,{\move(2000,1,-80,1)\q2\fs64}{\c&HDEC158}23333
+Comment: NO.366:unknow type
+Comment: NO.367:unknow type
+Comment: NO.368:unknow type
+Comment: NO.369:unknow type
+Dialogue: 0,0:07:17.57,0:07:29.57,R2L,,0000,0000,0000,,{\move(2048,1,-128,1)\q2\fs64}{\c&HDEC158}星星向龙
+Comment: NO.371:unknow type
+Comment: NO.372:unknow type
+Comment: NO.373:unknow type
+Comment: NO.374:unknow type
+Comment: NO.375:unknow type
+Comment: NO.376:unknow type
+Comment: NO.377:unknow type
+Comment: NO.378:unknow type
+Comment: NO.379:unknow type
+Comment: NO.380:unknow type
+Comment: NO.381:unknow type
+Comment: NO.382:unknow type
+Dialogue: 0,0:07:26.68,0:07:38.68,R2L,,0000,0000,0000,,{\move(1984,1,-64,1)\q2\fs64}{\c&HD8EE54}冲鸭
+Comment: NO.384:unknow type
+Dialogue: 0,0:07:27.97,0:07:39.97,R2L,,0000,0000,0000,,{\move(2112,65,-192,65)\q2\fs64}{\c&HDEC158}今晚还播吗？
+Comment: NO.386:unknow type
+Dialogue: 0,0:07:30.57,0:07:42.57,R2L,,0000,0000,0000,,{\move(1984,1,-64,1)\q2\fs64}{\c&HD8EE54}打卡
+Dialogue: 0,0:07:30.58,0:07:42.58,R2L,,0000,0000,0000,,{\move(2016,65,-96,65)\q2\fs64}{\c&HDEC158}忠诚！
+Comment: NO.389:unknow type
+Comment: NO.390:unknow type
+Comment: NO.391:unknow type
+Comment: NO.392:unknow type
+Comment: NO.393:unknow type
+Comment: NO.394:unknow type
+Comment: NO.395:unknow type
+Comment: NO.396:unknow type
+Comment: NO.397:unknow type
+Comment: NO.398:unknow type
+Comment: NO.399:unknow type
+Comment: NO.400:unknow type
+Comment: NO.401:unknow type
+Comment: NO.402:unknow type
+Comment: NO.403:unknow type
+Comment: NO.404:unknow type
+Comment: NO.405:unknow type
+Comment: NO.406:unknow type
+Comment: NO.407:unknow type
+Dialogue: 0,0:07:39.68,0:07:51.68,R2L,,0000,0000,0000,,{\move(2112,1,-192,1)\q2\fs64}{\c&HD8EE54}今晚还播么？
+Comment: NO.409:unknow type
+Comment: NO.410:unknow type
+Comment: NO.411:unknow type
+Comment: NO.412:unknow type
+Comment: NO.413:unknow type
+Comment: NO.414:unknow type
+Comment: NO.415:unknow type
+Comment: NO.416:unknow type
+Comment: NO.417:unknow type
+Comment: NO.418:unknow type
+Comment: NO.419:unknow type
+Comment: NO.420:unknow type
+Comment: NO.421:unknow type
+Comment: NO.422:unknow type
+Comment: NO.423:unknow type
+Comment: NO.424:unknow type
+Comment: NO.425:unknow type
+Comment: NO.426:unknow type
+Comment: NO.427:unknow type
+Comment: NO.428:unknow type
+Comment: NO.429:unknow type
+Comment: NO.430:unknow type
+Comment: NO.431:unknow type
+Comment: NO.432:unknow type
+Comment: NO.433:unknow type
+Comment: NO.434:unknow type
+Comment: NO.435:unknow type
+Comment: NO.436:unknow type
+Comment: NO.437:unknow type
+Comment: NO.438:unknow type
+Comment: NO.439:unknow type
+Comment: NO.440:unknow type
+Comment: NO.441:unknow type
+Comment: NO.442:unknow type
+Comment: NO.443:unknow type
+Comment: NO.444:unknow type
+Comment: NO.445:unknow type
+Comment: NO.446:unknow type
+Comment: NO.447:unknow type
+Comment: NO.448:unknow type
+Comment: NO.449:unknow type
+Comment: NO.450:unknow type
+Comment: NO.451:unknow type
+Comment: NO.452:unknow type
+Comment: NO.453:unknow type
+Comment: NO.454:unknow type
+Comment: NO.455:unknow type
+Comment: NO.456:unknow type
+Comment: NO.457:unknow type
+Comment: NO.458:unknow type
+Comment: NO.459:unknow type
+Comment: NO.460:unknow type
+Comment: NO.461:unknow type
+Comment: NO.462:unknow type
+Comment: NO.463:unknow type
+Comment: NO.464:unknow type
+Dialogue: 0,0:08:13.47,0:08:25.47,R2L,,0000,0000,0000,,{\move(1984,1,-64,1)\q2\fs64}{\c&HD8EE54}80！
+Comment: NO.466:unknow type
+Dialogue: 0,0:08:13.47,0:08:25.47,R2L,,0000,0000,0000,,{\move(2048,65,-128,65)\q2\fs64}{\c&HDEC158}说阿怡呢
+Dialogue: 0,0:08:14.80,0:08:26.80,R2L,,0000,0000,0000,,{\move(2016,1,-96,1)\q2\fs64}{\c&HDEC158}惊喜啊
+Dialogue: 0,0:08:17.36,0:08:29.36,R2L,,0000,0000,0000,,{\move(1952,1,-32,1)\q2\fs64}{\c&H4FEDFF}80
+Dialogue: 0,0:08:19.96,0:08:31.96,R2L,,0000,0000,0000,,{\move(1952,1,-32,1)\q2\fs64}{\c&HDEC158}80
+Dialogue: 0,0:08:21.27,0:08:33.27,R2L,,0000,0000,0000,,{\move(2112,65,-192,65)\q2\fs64}{\c&HDEC158}说起来律宾呢
+Dialogue: 0,0:08:21.27,0:08:33.27,R2L,,0000,0000,0000,,{\move(2048,129,-128,129)\q2\fs64}{\c&HD8EE54}去2留2！
+Dialogue: 0,0:08:25.17,0:08:37.17,R2L,,0000,0000,0000,,{\move(2016,1,-96,1)\q2\fs64}{\c&HDEC158}退役啦
+Comment: NO.474:unknow type
+Dialogue: 0,0:08:31.24,0:08:43.24,R2L,,0000,0000,0000,,{\move(2080,1,-160,1)\q2\fs64}{\c&HD8EE54}上海堵先生
+Dialogue: 0,0:08:32.96,0:08:44.96,R2L,,0000,0000,0000,,{\move(2272,65,-352,65)\q2\fs64}{\c&HD8EE54}今天要一直播到八点么？
+Comment: NO.477:unknow type
+Comment: NO.478:unknow type
+Comment: NO.479:unknow type
+Comment: NO.480:unknow type
+Comment: NO.481:unknow type
+Comment: NO.482:unknow type
+Comment: NO.483:unknow type
+Comment: NO.484:unknow type
+Dialogue: 0,0:08:47.27,0:08:59.27,R2L,,0000,0000,0000,,{\move(1936,1,-16,1)\q2\fs64}{\c&HDEC158}.
+Comment: NO.486:unknow type
+Comment: NO.487:unknow type
+Comment: NO.488:unknow type
+Comment: NO.489:unknow type
+Dialogue: 0,0:08:53.78,0:09:05.78,R2L,,0000,0000,0000,,{\move(2032,1,-112,1)\q2\fs64}{\c&HD8EE54}忠!\h诚!
+Comment: NO.491:unknow type
+Comment: NO.492:unknow type
+Dialogue: 0,0:08:55.06,0:09:07.06,R2L,,0000,0000,0000,,{\move(2016,1,-96,1)\q2\fs64}{\c&HD8EE54}可以的
+Dialogue: 0,0:08:56.37,0:09:08.37,R2L,,0000,0000,0000,,{\move(1952,1,-32,1)\q2\fs64}{\c&H4FEDFF}！
+Dialogue: 0,0:08:58.97,0:09:10.97,R2L,,0000,0000,0000,,{\move(2080,1,-160,1)\q2\fs64}{\c&HDEC158}直接开播啊
+Comment: NO.496:unknow type
+Comment: NO.497:unknow type
+Comment: NO.498:unknow type
+Comment: NO.499:unknow type
+Comment: NO.500:unknow type
+Comment: NO.501:unknow type
+Comment: NO.502:unknow type
+Comment: NO.503:unknow type
+Comment: NO.504:unknow type
+Comment: NO.505:unknow type
+Comment: NO.506:unknow type
+Comment: NO.507:unknow type
+Comment: NO.508:unknow type
+Comment: NO.509:unknow type
+Comment: NO.510:unknow type
+Comment: NO.511:unknow type
+Comment: NO.512:unknow type
+Comment: NO.513:unknow type
+Comment: NO.514:unknow type
+Comment: NO.515:unknow type
+Comment: NO.516:unknow type
+Comment: NO.517:unknow type
+Comment: NO.518:unknow type
+Comment: NO.519:unknow type
+Comment: NO.520:unknow type
+Comment: NO.521:unknow type
+Comment: NO.522:unknow type
+Dialogue: 0,0:09:02.88,0:09:14.88,R2L,,0000,0000,0000,,{\move(2048,1,-128,1)\q2\fs64}{\c&HDEC158}星星向龙
+Comment: NO.524:unknow type
+Comment: NO.525:unknow type
+Comment: NO.526:unknow type
+Comment: NO.527:unknow type
+Comment: NO.528:unknow type
+Dialogue: 0,0:09:04.18,0:09:16.18,R2L,,0000,0000,0000,,{\move(1952,65,-32,65)\q2\fs64}{\c&HDEC158}哈
+Comment: NO.530:unknow type
+Comment: NO.531:unknow type
+Comment: NO.532:unknow type
+Comment: NO.533:unknow type
+Comment: NO.534:unknow type
+Comment: NO.535:unknow type
+Comment: NO.536:unknow type
+Comment: NO.537:unknow type
+Comment: NO.538:unknow type
+Comment: NO.539:unknow type
+Comment: NO.540:unknow type
+Comment: NO.541:unknow type
+Comment: NO.542:unknow type
+Comment: NO.543:unknow type
+Comment: NO.544:unknow type
+Comment: NO.545:unknow type
+Comment: NO.546:unknow type
+Comment: NO.547:unknow type
+Comment: NO.548:unknow type
+Comment: NO.549:unknow type
+Comment: NO.550:unknow type
+Comment: NO.551:unknow type
+Comment: NO.552:unknow type
+Comment: NO.553:unknow type
+Comment: NO.554:unknow type
+Comment: NO.555:unknow type
+Comment: NO.556:unknow type
+Comment: NO.557:unknow type
+Comment: NO.558:unknow type
+Comment: NO.559:unknow type
+Comment: NO.560:unknow type
+Comment: NO.561:unknow type
+Comment: NO.562:unknow type
+Comment: NO.563:unknow type
+Comment: NO.564:unknow type
+Comment: NO.565:unknow type
+Comment: NO.566:unknow type
+Comment: NO.567:unknow type
+Comment: NO.568:unknow type
+Comment: NO.569:unknow type
+Comment: NO.570:unknow type
+Comment: NO.571:unknow type
+Comment: NO.572:unknow type
+Comment: NO.573:unknow type
+Comment: NO.574:unknow type
+Comment: NO.575:unknow type
+Comment: NO.576:unknow type
+Comment: NO.577:unknow type
+Comment: NO.578:unknow type
+Comment: NO.579:unknow type
+Comment: NO.580:unknow type
+Comment: NO.581:unknow type
+Comment: NO.582:unknow type
+Comment: NO.583:unknow type
+Comment: NO.584:unknow type
+Comment: NO.585:unknow type
+Comment: NO.586:unknow type
+Comment: NO.587:unknow type
+Comment: NO.588:unknow type
+Comment: NO.589:unknow type
+Comment: NO.590:unknow type
+Comment: NO.591:unknow type
+Comment: NO.592:unknow type
+Comment: NO.593:unknow type
+Comment: NO.594:unknow type
+Comment: NO.595:unknow type
+Comment: NO.596:unknow type
+Dialogue: 0,0:09:14.61,0:09:26.61,R2L,,0000,0000,0000,,{\move(1984,1,-64,1)\q2\fs64}{\c&HDEC158}南大
+Comment: NO.598:unknow type
+Comment: NO.599:unknow type
+Comment: NO.600:unknow type
+Comment: NO.601:unknow type
+Comment: NO.602:unknow type
+Comment: NO.603:unknow type
+Comment: NO.604:unknow type
+Comment: NO.605:unknow type
+Comment: NO.606:unknow type
+Comment: NO.607:unknow type
+Comment: NO.608:unknow type
+Comment: NO.609:unknow type
+Comment: NO.610:unknow type
+Comment: NO.611:unknow type
+Comment: NO.612:unknow type
+Comment: NO.613:unknow type
+Comment: NO.614:unknow type
+Comment: NO.615:unknow type
+Comment: NO.616:unknow type
+Comment: NO.617:unknow type
+Comment: NO.618:unknow type
+Comment: NO.619:unknow type
+Comment: NO.620:unknow type
+Comment: NO.621:unknow type
+Comment: NO.622:unknow type
+Comment: NO.623:unknow type
+Comment: NO.624:unknow type
+Comment: NO.625:unknow type
+Comment: NO.626:unknow type
+Comment: NO.627:unknow type
+Comment: NO.628:unknow type
+Comment: NO.629:unknow type
+Comment: NO.630:unknow type
+Comment: NO.631:unknow type
+Comment: NO.632:unknow type
+Comment: NO.633:unknow type
+Comment: NO.634:unknow type
+Comment: NO.635:unknow type
+Comment: NO.636:unknow type
+Comment: NO.637:unknow type
+Comment: NO.638:unknow type
+Comment: NO.639:unknow type
+Comment: NO.640:unknow type
+Comment: NO.641:unknow type
+Comment: NO.642:unknow type
+Comment: NO.643:unknow type
+Comment: NO.644:unknow type
+Comment: NO.645:unknow type
+Comment: NO.646:unknow type
+Comment: NO.647:unknow type
+Comment: NO.648:unknow type
+Comment: NO.649:unknow type
+Comment: NO.650:unknow type
+Comment: NO.651:unknow type
+Comment: NO.652:unknow type
+Comment: NO.653:unknow type
+Comment: NO.654:unknow type
+Comment: NO.655:unknow type
+Comment: NO.656:unknow type
+Comment: NO.657:unknow type
+Comment: NO.658:unknow type
+Comment: NO.659:unknow type
+Comment: NO.660:unknow type
+Dialogue: 0,0:09:31.47,0:09:43.47,R2L,,0000,0000,0000,,{\move(2048,1,-128,1)\q2\fs64}{\c&HDEC158}突然开播
+Comment: NO.662:unknow type
+Comment: NO.663:unknow type
+Comment: NO.664:unknow type
+Comment: NO.665:unknow type
+Comment: NO.666:unknow type
+Comment: NO.667:unknow type
+Comment: NO.668:unknow type
+Comment: NO.669:unknow type
+Comment: NO.670:unknow type
+Comment: NO.671:unknow type
+Comment: NO.672:unknow type
+Dialogue: 0,0:09:45.78,0:09:57.78,R2L,,0000,0000,0000,,{\move(2176,1,-256,1)\q2\fs64}{\c&HDEC158}现在播了晚上播啥
+Comment: NO.674:unknow type
+Dialogue: 0,0:09:53.57,0:10:05.57,R2L,,0000,0000,0000,,{\move(2080,1,-160,1)\q2\fs64}{\c&HD8EE54}（￣▽￣）
+Comment: NO.676:unknow type
+Comment: NO.677:unknow type
+Comment: NO.678:unknow type
+Comment: NO.679:unknow type
+Comment: NO.680:unknow type
+Comment: NO.681:unknow type
+Comment: NO.682:unknow type
+Comment: NO.683:unknow type
+Comment: NO.684:unknow type
+Comment: NO.685:unknow type
+Dialogue: 0,0:10:05.27,0:10:17.27,R2L,,0000,0000,0000,,{\move(2048,1,-128,1)\q2\fs64}突然开播
+Dialogue: 0,0:10:17.05,0:10:29.05,R2L,,0000,0000,0000,,{\move(1984,1,-64,1)\q2\fs64}突然
+Comment: NO.688:unknow type
+Dialogue: 0,0:10:18.26,0:10:30.26,R2L,,0000,0000,0000,,{\move(2048,65,-128,65)\q2\fs64}{\c&HDEC158}突然开播
+Comment: NO.690:unknow type
+Dialogue: 0,0:10:31.26,0:10:43.26,R2L,,0000,0000,0000,,{\move(2048,1,-128,1)\q2\fs64}{\c&HDEC158}突然开播
+Dialogue: 0,0:10:36.48,0:10:48.48,R2L,,0000,0000,0000,,{\move(1984,1,-64,1)\q2\fs64}{\c&HDEC158}冲鸭
+Dialogue: 0,0:10:40.36,0:10:52.36,R2L,,0000,0000,0000,,{\move(2016,1,-96,1)\q2\fs64}{\c&HDEC158}板载！
+Comment: NO.694:unknow type
+Comment: NO.695:unknow type
+Comment: NO.696:unknow type
+Dialogue: 0,0:10:45.58,0:10:57.58,R2L,,0000,0000,0000,,{\move(2080,1,-160,1)\q2\fs64}{\c&HDEC158}晚上还播不
+Comment: NO.698:unknow type
+Comment: NO.699:unknow type
+Comment: NO.700:unknow type
+Comment: NO.701:unknow type
+Comment: NO.702:unknow type
+Comment: NO.703:unknow type
+Comment: NO.704:unknow type
+Comment: NO.705:unknow type
+Comment: NO.706:unknow type
+Dialogue: 0,0:10:57.28,0:11:09.28,R2L,,0000,0000,0000,,{\move(2096,1,-176,1)\q2\fs64}{\c&HDEC158}（￣▽￣）.
+Comment: NO.708:unknow type
+Comment: NO.709:unknow type
+Comment: NO.710:unknow type
+Comment: NO.711:unknow type
+Comment: NO.712:unknow type
+Comment: NO.713:unknow type
+Comment: NO.714:unknow type
+Comment: NO.715:unknow type
+Comment: NO.716:unknow type
+Comment: NO.717:unknow type
+Comment: NO.718:unknow type
+Comment: NO.719:unknow type
+Comment: NO.720:unknow type
+Dialogue: 0,0:11:19.37,0:11:31.37,R2L,,0000,0000,0000,,{\move(1984,1,-64,1)\q2\fs64}{\c&HD8EE54}upup
+Comment: NO.722:unknow type
+Comment: NO.723:unknow type
+Comment: NO.724:unknow type
+Comment: NO.725:unknow type
+Comment: NO.726:unknow type
+Comment: NO.727:unknow type
+Comment: NO.728:unknow type
+Dialogue: 0,0:11:24.57,0:11:36.57,R2L,,0000,0000,0000,,{\move(2240,1,-320,1)\q2\fs64}{\c&HDEC158}现在播了今晚不播了吗
+Dialogue: 0,0:11:28.47,0:11:40.47,R2L,,0000,0000,0000,,{\move(2032,1,-112,1)\q2\fs64}{\c&HD8EE54}忠!\h诚!
+Dialogue: 0,0:11:28.47,0:11:40.47,R2L,,0000,0000,0000,,{\move(2192,65,-272,65)\q2\fs64}{\c&HD8EE54}我不打扰\h我走了嗷
+Comment: NO.732:unknow type
+Comment: NO.733:unknow type
+Comment: NO.734:unknow type
+Comment: NO.735:unknow type
+Comment: NO.736:unknow type
+Comment: NO.737:unknow type
+Comment: NO.738:unknow type
+Comment: NO.739:unknow type
+Comment: NO.740:unknow type
+Comment: NO.741:unknow type
+Comment: NO.742:unknow type
+Comment: NO.743:unknow type
+Comment: NO.744:unknow type
+Comment: NO.745:unknow type
+Comment: NO.746:unknow type
+Comment: NO.747:unknow type
+Comment: NO.748:unknow type
+Comment: NO.749:unknow type
+Dialogue: 0,0:11:50.59,0:12:02.59,R2L,,0000,0000,0000,,{\move(2048,1,-128,1)\q2\fs64}莫名加班
+Comment: NO.751:unknow type
+Comment: NO.752:unknow type
+Comment: NO.753:unknow type
+Comment: NO.754:unknow type
+Comment: NO.755:unknow type
+Dialogue: 0,0:12:02.26,0:12:14.26,R2L,,0000,0000,0000,,{\move(2256,1,-336,1)\q2\fs64}{\c&HDEC158}怡早上还发电“0太多”
+Dialogue: 0,0:12:06.16,0:12:18.16,R2L,,0000,0000,0000,,{\move(2240,1,-320,1)\q2\fs64}{\c&HD8EE54}甚至连观网都冷启动了
+Dialogue: 0,0:12:16.57,0:12:28.57,R2L,,0000,0000,0000,,{\move(2032,1,-112,1)\q2\fs64}加班ing
+Dialogue: 0,0:12:21.88,0:12:33.88,R2L,,0000,0000,0000,,{\move(1984,1,-64,1)\q2\fs64}{\c&HDEC158}冲鸭
+Comment: NO.760:unknow type
+Dialogue: 0,0:12:30.88,0:12:42.88,R2L,,0000,0000,0000,,{\move(1984,1,-64,1)\q2\fs64}{\c&HD8EE54}upup
+Dialogue: 0,0:12:30.88,0:12:42.88,R2L,,0000,0000,0000,,{\move(2112,65,-192,65)\q2\fs64}{\c&HD8EE54}居然加班了！
+Dialogue: 0,0:12:37.36,0:12:49.36,R2L,,0000,0000,0000,,{\move(2144,1,-224,1)\q2\fs64}{\c&HDEC158}这个算加班吧！
+Comment: NO.764:unknow type
+Comment: NO.765:unknow type
+Dialogue: 0,0:13:00.77,0:13:12.77,R2L,,0000,0000,0000,,{\move(2224,1,-304,1)\q2\fs64}播多久？还是2小时？
+Comment: NO.767:unknow type
+Comment: NO.768:unknow type
+Comment: NO.769:unknow type
+Comment: NO.770:unknow type
+Comment: NO.771:unknow type
+Comment: NO.772:unknow type
+Comment: NO.773:unknow type
+Comment: NO.774:unknow type
+Comment: NO.775:unknow type
+Comment: NO.776:unknow type
+Comment: NO.777:unknow type
+Comment: NO.778:unknow type
+Comment: NO.779:unknow type
+Comment: NO.780:unknow type
+Comment: NO.781:unknow type
+Comment: NO.782:unknow type
+Comment: NO.783:unknow type
+Comment: NO.784:unknow type
+Comment: NO.785:unknow type
+Comment: NO.786:unknow type
+Comment: NO.787:unknow type
+Comment: NO.788:unknow type
+Comment: NO.789:unknow type
+Comment: NO.790:unknow type
+Comment: NO.791:unknow type
+Dialogue: 0,0:13:15.07,0:13:27.07,R2L,,0000,0000,0000,,{\move(2272,1,-352,1)\q2\fs64}三十年河东！莫欺老年机
+Comment: NO.793:unknow type
+Comment: NO.794:unknow type
+Comment: NO.795:unknow type
+Comment: NO.796:unknow type
+Comment: NO.797:unknow type
+Comment: NO.798:unknow type
+Comment: NO.799:unknow type
+Dialogue: 0,0:13:17.67,0:13:29.67,R2L,,0000,0000,0000,,{\move(2080,65,-160,65)\q2\fs64}晚上还播吗
+Comment: NO.801:unknow type
+Comment: NO.802:unknow type
+Comment: NO.803:unknow type
+Comment: NO.804:unknow type
+Comment: NO.805:unknow type
+Comment: NO.806:unknow type
+Comment: NO.807:unknow type
+Comment: NO.808:unknow type
+Comment: NO.809:unknow type
+Comment: NO.810:unknow type
+Comment: NO.811:unknow type
+Comment: NO.812:unknow type
+Comment: NO.813:unknow type
+Comment: NO.814:unknow type
+Comment: NO.815:unknow type
+Comment: NO.816:unknow type
+Comment: NO.817:unknow type
+Comment: NO.818:unknow type
+Comment: NO.819:unknow type
+Comment: NO.820:unknow type
+Comment: NO.821:unknow type
+Comment: NO.822:unknow type
+Comment: NO.823:unknow type
+Comment: NO.824:unknow type
+Comment: NO.825:unknow type
+Comment: NO.826:unknow type
+Comment: NO.827:unknow type
+Comment: NO.828:unknow type
+Comment: NO.829:unknow type
+Comment: NO.830:unknow type
+Comment: NO.831:unknow type
+Comment: NO.832:unknow type
+Comment: NO.833:unknow type
+Comment: NO.834:unknow type
+Comment: NO.835:unknow type
+Comment: NO.836:unknow type
+Comment: NO.837:unknow type
+Comment: NO.838:unknow type
+Comment: NO.839:unknow type
+Comment: NO.840:unknow type
+Comment: NO.841:unknow type
+Comment: NO.842:unknow type
+Comment: NO.843:unknow type
+Comment: NO.844:unknow type
+Comment: NO.845:unknow type
+Comment: NO.846:unknow type
+Comment: NO.847:unknow type
+Comment: NO.848:unknow type
+Comment: NO.849:unknow type
+Comment: NO.850:unknow type
+Comment: NO.851:unknow type
+Comment: NO.852:unknow type
+Comment: NO.853:unknow type
+Comment: NO.854:unknow type
+Comment: NO.855:unknow type
+Comment: NO.856:unknow type
+Comment: NO.857:unknow type
+Comment: NO.858:unknow type
+Comment: NO.859:unknow type
+Comment: NO.860:unknow type
+Comment: NO.861:unknow type
+Comment: NO.862:unknow type
+Comment: NO.863:unknow type
+Comment: NO.864:unknow type
+Comment: NO.865:unknow type
+Comment: NO.866:unknow type
+Comment: NO.867:unknow type
+Comment: NO.868:unknow type
+Comment: NO.869:unknow type
+Comment: NO.870:unknow type
+Comment: NO.871:unknow type
+Comment: NO.872:unknow type
+Comment: NO.873:unknow type
+Dialogue: 0,0:13:39.76,0:13:51.76,R2L,,0000,0000,0000,,{\move(2336,1,-416,1)\q2\fs64}{\c&HD8EE54}不会下午播了晚上就没了吧？
+Comment: NO.875:unknow type
+Dialogue: 0,0:13:52.77,0:14:04.77,R2L,,0000,0000,0000,,{\move(2144,1,-224,1)\q2\fs64}{\c&HDEC158}什么时候开始的
+Comment: NO.877:unknow type
+Comment: NO.878:unknow type
+Comment: NO.879:unknow type
+Comment: NO.880:unknow type
+Dialogue: 0,0:14:09.67,0:14:21.67,R2L,,0000,0000,0000,,{\move(1952,1,-32,1)\q2\fs64}{\c&HDEC158}..
+Dialogue: 0,0:14:14.87,0:14:26.87,R2L,,0000,0000,0000,,{\move(2400,1,-480,1)\q2\fs64}{\c&HD8EE54}感觉有一种岛上有外星人也有预案
+Dialogue: 0,0:14:25.26,0:14:37.26,R2L,,0000,0000,0000,,{\move(1984,1,-64,1)\q2\fs64}{\c&HDEC158}打卡
+Dialogue: 0,0:14:39.57,0:14:51.57,R2L,,0000,0000,0000,,{\move(2112,1,-192,1)\q2\fs64}{\c&HDEC158}特别军事行动
+Comment: NO.885:unknow type
+Comment: NO.886:unknow type
+Comment: NO.887:unknow type
+Comment: NO.888:unknow type
+Comment: NO.889:unknow type
+Comment: NO.890:unknow type
+Dialogue: 0,0:14:55.16,0:15:07.16,R2L,,0000,0000,0000,,{\move(2080,1,-160,1)\q2\fs64}{\c&HDEC158}开始多久了
+Comment: NO.892:unknow type
+Dialogue: 0,0:15:08.17,0:15:20.17,R2L,,0000,0000,0000,,{\move(2256,1,-336,1)\q2\fs64}{\c&HD8EE54}可能一离地rwr就响了（
+Dialogue: 0,0:15:08.17,0:15:20.17,R2L,,0000,0000,0000,,{\move(2112,65,-192,65)\q2\fs64}{\c&HDEC158}49年就开始了
+Dialogue: 0,0:15:13.38,0:15:25.38,R2L,,0000,0000,0000,,{\move(2016,1,-96,1)\q2\fs64}{\c&HDEC158}阿姨了
+Dialogue: 0,0:15:13.38,0:15:25.38,R2L,,0000,0000,0000,,{\move(2048,65,-128,65)\q2\fs64}{\c&HDEC158}啊啊啊啊
+Comment: NO.897:unknow type
+Comment: NO.898:unknow type
+Comment: NO.899:unknow type
+Comment: NO.900:unknow type
+Comment: NO.901:unknow type
+Comment: NO.902:unknow type
+Comment: NO.903:unknow type
+Comment: NO.904:unknow type
+Comment: NO.905:unknow type
+Dialogue: 0,0:15:26.37,0:15:38.37,R2L,,0000,0000,0000,,{\move(2176,1,-256,1)\q2\fs64}{\c&HDEC158}让王世怡做出回答
+Dialogue: 0,0:15:26.37,0:15:38.37,R2L,,0000,0000,0000,,{\move(2144,65,-224,65)\q2\fs64}{\c&HDEC158}这是好突袭吗？
+Dialogue: 0,0:15:27.66,0:15:39.66,R2L,,0000,0000,0000,,{\move(2048,129,-128,129)\q2\fs64}{\c&HDEC158}很有精神
+Comment: NO.909:unknow type
+Dialogue: 0,0:15:34.16,0:15:46.16,R2L,,0000,0000,0000,,{\move(2048,1,-128,1)\q2\fs64}观察者网
+Dialogue: 0,0:15:38.07,0:15:50.07,R2L,,0000,0000,0000,,{\move(2352,1,-432,1)\q2\fs64}三脚一离地\h就从雷达上消失了
+Dialogue: 0,0:15:41.96,0:15:53.96,R2L,,0000,0000,0000,,{\move(2176,1,-256,1)\q2\fs64}{\c&HD8EE54}特别预防发电行动
+Comment: NO.913:unknow type
+Comment: NO.914:unknow type
+Comment: NO.915:unknow type
+Comment: NO.916:unknow type
+Comment: NO.917:unknow type
+Comment: NO.918:unknow type
+Comment: NO.919:unknow type
+Comment: NO.920:unknow type
+Comment: NO.921:unknow type
+Comment: NO.922:unknow type
+Comment: NO.923:unknow type
+Comment: NO.924:unknow type
+Comment: NO.925:unknow type
+Comment: NO.926:unknow type
+Comment: NO.927:unknow type
+Comment: NO.928:unknow type
+Comment: NO.929:unknow type
+Comment: NO.930:unknow type
+Comment: NO.931:unknow type
+Comment: NO.932:unknow type
+Comment: NO.933:unknow type
+Dialogue: 0,0:16:02.77,0:16:14.77,R2L,,0000,0000,0000,,{\move(1984,1,-64,1)\q2\fs64}{\c&HD8EE54}好耶
+Dialogue: 0,0:16:05.36,0:16:17.36,R2L,,0000,0000,0000,,{\move(1984,1,-64,1)\q2\fs64}{\c&H4FEDFF}怡呢
+Comment: NO.936:unknow type
+Comment: NO.937:unknow type
+Comment: NO.938:unknow type
+Comment: NO.939:unknow type
+Comment: NO.940:unknow type
+Comment: NO.941:unknow type
+Comment: NO.942:unknow type
+Comment: NO.943:unknow type
+Dialogue: 0,0:16:31.36,0:16:43.36,R2L,,0000,0000,0000,,{\move(2272,1,-352,1)\q2\fs64}{\c&HDEC158}阿怡可能去找战斗服去了
+Dialogue: 0,0:17:01.27,0:17:13.27,R2L,,0000,0000,0000,,{\move(2320,1,-400,1)\q2\fs64}{\c&HD8EE54}传出去\h这天飞的都隐身战机
+Dialogue: 0,0:17:05.18,0:17:17.18,R2L,,0000,0000,0000,,{\move(2048,1,-128,1)\q2\fs64}打卡打卡
+Dialogue: 0,0:17:05.18,0:17:17.18,R2L,,0000,0000,0000,,{\move(2112,65,-192,65)\q2\fs64}{\c&HDEC158}白水加气来了
+Comment: NO.948:unknow type
+Comment: NO.949:unknow type
+Comment: NO.950:unknow type
+Comment: NO.951:unknow type
+Comment: NO.952:unknow type
+Comment: NO.953:unknow type
+Comment: NO.954:unknow type
+Comment: NO.955:unknow type
+Comment: NO.956:unknow type
+Comment: NO.957:unknow type
+Comment: NO.958:unknow type
+Comment: NO.959:unknow type
+Comment: NO.960:unknow type
+Comment: NO.961:unknow type
+Comment: NO.962:unknow type
+Comment: NO.963:unknow type
+Comment: NO.964:unknow type
+Comment: NO.965:unknow type
+Comment: NO.966:unknow type
+Comment: NO.967:unknow type
+Comment: NO.968:unknow type
+Comment: NO.969:unknow type
+Comment: NO.970:unknow type
+Comment: NO.971:unknow type
+Comment: NO.972:unknow type
+Comment: NO.973:unknow type
+Comment: NO.974:unknow type
+Comment: NO.975:unknow type
+Comment: NO.976:unknow type
+Comment: NO.977:unknow type
+Comment: NO.978:unknow type
+Comment: NO.979:unknow type
+Comment: NO.980:unknow type
+Comment: NO.981:unknow type
+Comment: NO.982:unknow type
+Comment: NO.983:unknow type
+Comment: NO.984:unknow type
+Comment: NO.985:unknow type
+Comment: NO.986:unknow type
+Comment: NO.987:unknow type
+Comment: NO.988:unknow type
+Comment: NO.989:unknow type
+Comment: NO.990:unknow type
+Comment: NO.991:unknow type
+Comment: NO.992:unknow type
+Comment: NO.993:unknow type
+Comment: NO.994:unknow type
+Comment: NO.995:unknow type
+Comment: NO.996:unknow type
+Comment: NO.997:unknow type
+Comment: NO.998:unknow type
+Comment: NO.999:unknow type
+Comment: NO.1000:unknow type
+Comment: NO.1001:unknow type
+Comment: NO.1002:unknow type
+Comment: NO.1003:unknow type
+Comment: NO.1004:unknow type
+Comment: NO.1005:unknow type
+Comment: NO.1006:unknow type
+Comment: NO.1007:unknow type
+Comment: NO.1008:unknow type
+Comment: NO.1009:unknow type
+Comment: NO.1010:unknow type
+Comment: NO.1011:unknow type
+Comment: NO.1012:unknow type
+Comment: NO.1013:unknow type
+Comment: NO.1014:unknow type
+Comment: NO.1015:unknow type
+Comment: NO.1016:unknow type
+Comment: NO.1017:unknow type
+Comment: NO.1018:unknow type
+Comment: NO.1019:unknow type
+Comment: NO.1020:unknow type
+Comment: NO.1021:unknow type
+Comment: NO.1022:unknow type
+Comment: NO.1023:unknow type
+Comment: NO.1024:unknow type
+Comment: NO.1025:unknow type
+Comment: NO.1026:unknow type
+Comment: NO.1027:unknow type
+Comment: NO.1028:unknow type
+Comment: NO.1029:unknow type
+Comment: NO.1030:unknow type
+Comment: NO.1031:unknow type
+Comment: NO.1032:unknow type
+Comment: NO.1033:unknow type
+Comment: NO.1034:unknow type
+Comment: NO.1035:unknow type
+Comment: NO.1036:unknow type
+Comment: NO.1037:unknow type
+Comment: NO.1038:unknow type
+Comment: NO.1039:unknow type
+Comment: NO.1040:unknow type
+Comment: NO.1041:unknow type
+Comment: NO.1042:unknow type
+Comment: NO.1043:unknow type
+Comment: NO.1044:unknow type
+Comment: NO.1045:unknow type
+Comment: NO.1046:unknow type
+Comment: NO.1047:unknow type
+Comment: NO.1048:unknow type
+Comment: NO.1049:unknow type
+Comment: NO.1050:unknow type
+Comment: NO.1051:unknow type
+Comment: NO.1052:unknow type
+Comment: NO.1053:unknow type
+Comment: NO.1054:unknow type
+Comment: NO.1055:unknow type
+Comment: NO.1056:unknow type
+Comment: NO.1057:unknow type
+Comment: NO.1058:unknow type
+Comment: NO.1059:unknow type
+Comment: NO.1060:unknow type
+Comment: NO.1061:unknow type
+Comment: NO.1062:unknow type
+Comment: NO.1063:unknow type
+Comment: NO.1064:unknow type
+Comment: NO.1065:unknow type
+Comment: NO.1066:unknow type
+Comment: NO.1067:unknow type
+Comment: NO.1068:unknow type
+Comment: NO.1069:unknow type
+Comment: NO.1070:unknow type
+Comment: NO.1071:unknow type
+Comment: NO.1072:unknow type
+Comment: NO.1073:unknow type
+Comment: NO.1074:unknow type
+Comment: NO.1075:unknow type
+Comment: NO.1076:unknow type
+Comment: NO.1077:unknow type
+Comment: NO.1078:unknow type
+Comment: NO.1079:unknow type
+Comment: NO.1080:unknow type
+Comment: NO.1081:unknow type
+Comment: NO.1082:unknow type
+Comment: NO.1083:unknow type
+Comment: NO.1084:unknow type
+Comment: NO.1085:unknow type
+Comment: NO.1086:unknow type
+Comment: NO.1087:unknow type
+Comment: NO.1088:unknow type
+Dialogue: 0,0:17:31.17,0:17:43.17,R2L,,0000,0000,0000,,{\move(2080,1,-160,1)\q2\fs64}{\c&HD8EE54}临时加更？
+Comment: NO.1090:unknow type
+Dialogue: 0,0:17:35.08,0:17:47.08,R2L,,0000,0000,0000,,{\move(1984,1,-64,1)\q2\fs64}{\c&HDEC158}冲鸭
+Comment: NO.1092:unknow type
+Comment: NO.1093:unknow type
+Comment: NO.1094:unknow type
+Comment: NO.1095:unknow type
+Comment: NO.1096:unknow type
+Comment: NO.1097:unknow type
+Dialogue: 0,0:17:58.46,0:18:10.46,R2L,,0000,0000,0000,,{\move(2048,1,-128,1)\q2\fs64}{\c&HD8EE54}这个好耶
+Comment: NO.1099:unknow type
+Comment: NO.1100:unknow type
+Comment: NO.1101:unknow type
+Comment: NO.1102:unknow type
+Comment: NO.1103:unknow type
+Comment: NO.1104:unknow type
+Comment: NO.1105:unknow type
+Comment: NO.1106:unknow type
+Comment: NO.1107:unknow type
+Comment: NO.1108:unknow type
+Comment: NO.1109:unknow type
+Dialogue: 0,0:18:14.06,0:18:26.06,R2L,,0000,0000,0000,,{\move(2080,1,-160,1)\q2\fs64}{\c&HD8EE54}这是加播？
+Comment: NO.1111:unknow type
+Comment: NO.1112:unknow type
+Comment: NO.1113:unknow type
+Comment: NO.1114:unknow type
+Comment: NO.1115:unknow type
+Comment: NO.1116:unknow type
+Comment: NO.1117:unknow type
+Comment: NO.1118:unknow type
+Comment: NO.1119:unknow type
+Comment: NO.1120:unknow type
+Comment: NO.1121:unknow type
+Comment: NO.1122:unknow type
+Comment: NO.1123:unknow type
+Comment: NO.1124:unknow type
+Comment: NO.1125:unknow type
+Comment: NO.1126:unknow type
+Comment: NO.1127:unknow type
+Comment: NO.1128:unknow type
+Comment: NO.1129:unknow type
+Comment: NO.1130:unknow type
+Comment: NO.1131:unknow type
+Comment: NO.1132:unknow type
+Comment: NO.1133:unknow type
+Comment: NO.1134:unknow type
+Comment: NO.1135:unknow type
+Comment: NO.1136:unknow type
+Comment: NO.1137:unknow type
+Comment: NO.1138:unknow type
+Comment: NO.1139:unknow type
+Comment: NO.1140:unknow type
+Comment: NO.1141:unknow type
+Comment: NO.1142:unknow type
+Comment: NO.1143:unknow type
+Comment: NO.1144:unknow type
+Comment: NO.1145:unknow type
+Comment: NO.1146:unknow type
+Dialogue: 0,0:18:23.18,0:18:35.18,R2L,,0000,0000,0000,,{\move(2144,1,-224,1)\q2\fs64}RJ：你很机车欸
+Comment: NO.1148:unknow type
+Comment: NO.1149:unknow type
+Comment: NO.1150:unknow type
+Comment: NO.1151:unknow type
+Comment: NO.1152:unknow type
+Comment: NO.1153:unknow type
+Comment: NO.1154:unknow type
+Comment: NO.1155:unknow type
+Comment: NO.1156:unknow type
+Comment: NO.1157:unknow type
+Comment: NO.1158:unknow type
+Comment: NO.1159:unknow type
+Comment: NO.1160:unknow type
+Comment: NO.1161:unknow type
+Comment: NO.1162:unknow type
+Comment: NO.1163:unknow type
+Comment: NO.1164:unknow type
+Comment: NO.1165:unknow type
+Comment: NO.1166:unknow type
+Comment: NO.1167:unknow type
+Comment: NO.1168:unknow type
+Comment: NO.1169:unknow type
+Comment: NO.1170:unknow type
+Comment: NO.1171:unknow type
+Comment: NO.1172:unknow type
+Comment: NO.1173:unknow type
+Comment: NO.1174:unknow type
+Comment: NO.1175:unknow type
+Comment: NO.1176:unknow type
+Comment: NO.1177:unknow type
+Comment: NO.1178:unknow type
+Comment: NO.1179:unknow type
+Comment: NO.1180:unknow type
+Comment: NO.1181:unknow type
+Comment: NO.1182:unknow type
+Comment: NO.1183:unknow type
+Comment: NO.1184:unknow type
+Comment: NO.1185:unknow type
+Dialogue: 0,0:18:36.18,0:18:48.18,R2L,,0000,0000,0000,,{\move(2016,1,-96,1)\q2\fs64}{\c&HDEC158}下午好
+Comment: NO.1187:unknow type
+Comment: NO.1188:unknow type
+Comment: NO.1189:unknow type
+Comment: NO.1190:unknow type
+Comment: NO.1191:unknow type
+Comment: NO.1192:unknow type
+Comment: NO.1193:unknow type
+Comment: NO.1194:unknow type
+Comment: NO.1195:unknow type
+Comment: NO.1196:unknow type
+Comment: NO.1197:unknow type
+Comment: NO.1198:unknow type
+Comment: NO.1199:unknow type
+Comment: NO.1200:unknow type
+Comment: NO.1201:unknow type
+Comment: NO.1202:unknow type
+Comment: NO.1203:unknow type
+Comment: NO.1204:unknow type
+Comment: NO.1205:unknow type
+Comment: NO.1206:unknow type
+Comment: NO.1207:unknow type
+Comment: NO.1208:unknow type
+Comment: NO.1209:unknow type
+Dialogue: 0,0:18:46.56,0:18:58.56,R2L,,0000,0000,0000,,{\move(2208,1,-288,1)\q2\fs64}{\c&HD8EE54}咩！！！！！？！！
+Dialogue: 0,0:18:47.86,0:18:59.86,R2L,,0000,0000,0000,,{\move(1936,65,-16,65)\q2\fs64}{\c&HDEC158}.
+Comment: NO.1212:unknow type
+Comment: NO.1213:unknow type
+Comment: NO.1214:unknow type
+Comment: NO.1215:unknow type
+Comment: NO.1216:unknow type
+Comment: NO.1217:unknow type
+Comment: NO.1218:unknow type
+Comment: NO.1219:unknow type
+Comment: NO.1220:unknow type
+Comment: NO.1221:unknow type
+Comment: NO.1222:unknow type
+Comment: NO.1223:unknow type
+Comment: NO.1224:unknow type
+Comment: NO.1225:unknow type
+Dialogue: 0,0:19:03.46,0:19:15.46,R2L,,0000,0000,0000,,{\move(1952,1,-32,1)\q2\fs64}午
+Comment: NO.1227:unknow type
+Comment: NO.1228:unknow type
+Comment: NO.1229:unknow type
+Dialogue: 0,0:19:08.66,0:19:20.66,R2L,,0000,0000,0000,,{\move(2016,1,-96,1)\q2\fs64}{\c&HDEC158}好好好
+Comment: NO.1231:unknow type
+Comment: NO.1232:unknow type
+Comment: NO.1233:unknow type
+Dialogue: 0,0:19:24.26,0:19:36.26,R2L,,0000,0000,0000,,{\move(2016,1,-96,1)\q2\fs64}{\c&HD8EE54}复古风
+Comment: NO.1235:unknow type
+Comment: NO.1236:unknow type
+Dialogue: 0,0:19:30.76,0:19:42.76,R2L,,0000,0000,0000,,{\move(2496,1,-576,1)\q2\fs64}{\c&H6868FF}结果就在以为不会出事的时候给你来事了
+Dialogue: 0,0:19:45.06,0:19:57.06,R2L,,0000,0000,0000,,{\move(2016,1,-96,1)\q2\fs64}{\c&HDEC158}冷启动
+Dialogue: 0,0:19:46.36,0:19:58.36,R2L,,0000,0000,0000,,{\move(2016,1,-96,1)\q2\fs64}{\c&HD8EE54}下午好
+Dialogue: 0,0:19:47.66,0:19:59.66,R2L,,0000,0000,0000,,{\move(1984,1,-64,1)\q2\fs64}{\c&HDEC158}打卡
+Dialogue: 0,0:19:59.36,0:20:11.36,R2L,,0000,0000,0000,,{\move(2048,1,-128,1)\q2\fs64}{\c&H6868FF}睡\h起\h嗨
+Comment: NO.1242:unknow type
+Dialogue: 0,0:20:14.96,0:20:26.96,R2L,,0000,0000,0000,,{\move(2240,1,-320,1)\q2\fs64}{\c&HDEC158}话说晚上特工队还播不
+Comment: NO.1244:unknow type
+Comment: NO.1245:unknow type
+Comment: NO.1246:unknow type
+Dialogue: 0,0:20:20.16,0:20:32.16,R2L,,0000,0000,0000,,{\move(2016,1,-96,1)\q2\fs64}{\c&HDEC158}好耶！
+Comment: NO.1248:unknow type
+Comment: NO.1249:unknow type
+Comment: NO.1250:unknow type
+Dialogue: 0,0:20:42.26,0:20:54.26,R2L,,0000,0000,0000,,{\move(1984,1,-64,1)\q2\fs64}{\c&HDEC158}冲鸭
+Comment: NO.1252:unknow type
+Comment: NO.1253:unknow type
+Comment: NO.1254:unknow type
+Comment: NO.1255:unknow type
+Comment: NO.1256:unknow type
+Comment: NO.1257:unknow type
+Comment: NO.1258:unknow type
+Comment: NO.1259:unknow type
+Comment: NO.1260:unknow type
+Comment: NO.1261:unknow type
+Comment: NO.1262:unknow type
+Comment: NO.1263:unknow type
+Dialogue: 0,0:20:57.86,0:21:09.86,R2L,,0000,0000,0000,,{\move(1984,1,-64,1)\q2\fs64}{\c&HDEC158}打卡
+Dialogue: 0,0:21:00.46,0:21:12.46,R2L,,0000,0000,0000,,{\move(2112,1,-192,1)\q2\fs64}{\c&HDEC158}特别军事行动
+Comment: NO.1266:unknow type
+Dialogue: 0,0:21:17.36,0:21:29.36,R2L,,0000,0000,0000,,{\move(2192,1,-272,1)\q2\fs64}给3天已经够善意了
+Dialogue: 0,0:21:21.27,0:21:33.27,R2L,,0000,0000,0000,,{\move(2048,1,-128,1)\q2\fs64}{\c&H4FEDFF}话里有话
+Dialogue: 0,0:21:27.76,0:21:39.76,R2L,,0000,0000,0000,,{\move(2256,1,-336,1)\q2\fs64}{\c&HD8EE54}某种你说你的\h我做我的
+Dialogue: 0,0:21:39.46,0:21:51.46,R2L,,0000,0000,0000,,{\move(2336,1,-416,1)\q2\fs64}{\c&H4FEDFF}脱敏了才是要动手的最好预备
+Comment: NO.1271:unknow type
+Comment: NO.1272:unknow type
+Comment: NO.1273:unknow type
+Dialogue: 0,0:21:49.86,0:22:01.86,R2L,,0000,0000,0000,,{\move(2128,1,-208,1)\q2\fs64}{\c&HDEC158}这是白水+气！
+Comment: NO.1275:unknow type
+Comment: NO.1276:unknow type
+Comment: NO.1277:unknow type
+Comment: NO.1278:unknow type
+Comment: NO.1279:unknow type
+Comment: NO.1280:unknow type
+Comment: NO.1281:unknow type
+Comment: NO.1282:unknow type
+Comment: NO.1283:unknow type
+Comment: NO.1284:unknow type
+Comment: NO.1285:unknow type
+Comment: NO.1286:unknow type
+Dialogue: 0,0:21:56.37,0:22:08.37,R2L,,0000,0000,0000,,{\move(2240,1,-320,1)\q2\fs64}{\c&HD8EE54}特别泡面不叫阿姨行动
+Dialogue: 0,0:21:57.74,0:22:09.74,R2L,,0000,0000,0000,,{\move(2048,65,-128,65)\q2\fs64}{\c&HDEC158}正在飞越
+Dialogue: 0,0:22:05.46,0:22:17.46,R2L,,0000,0000,0000,,{\move(2144,1,-224,1)\q2\fs64}攀登珠穆朗玛峰
+Comment: NO.1290:unknow type
+Comment: NO.1291:unknow type
+Dialogue: 0,0:22:22.37,0:22:34.37,R2L,,0000,0000,0000,,{\move(2160,1,-240,1)\q2\fs64}svo全称是什么啊
+Dialogue: 0,0:22:22.37,0:22:34.37,R2L,,0000,0000,0000,,{\move(2112,65,-192,65)\q2\fs64}{\c&HD8EE54}特别演训行动
+Comment: NO.1294:unknow type
+Comment: NO.1295:unknow type
+Comment: NO.1296:unknow type
+Comment: NO.1297:unknow type
+Comment: NO.1298:unknow type
+Comment: NO.1299:unknow type
+Comment: NO.1300:unknow type
+Dialogue: 0,0:22:43.16,0:22:55.16,R2L,,0000,0000,0000,,{\move(2064,1,-144,1)\q2\fs64}[tv_鬼脸]
+Comment: NO.1302:unknow type
+Dialogue: 0,0:22:44.46,0:22:56.46,R2L,,0000,0000,0000,,{\move(2048,65,-128,65)\q2\fs64}{\c&HDEC158}渡海战役
+Comment: NO.1304:unknow type
+Dialogue: 0,0:22:45.77,0:22:57.77,R2L,,0000,0000,0000,,{\move(2128,1,-208,1)\q2\fs64}无锡提055…..
+Dialogue: 0,0:22:49.66,0:23:01.66,R2L,,0000,0000,0000,,{\move(2208,1,-288,1)\q2\fs64}{\c&HD8EE54}石家庄人还没说话呢
+Dialogue: 0,0:22:50.96,0:23:02.96,R2L,,0000,0000,0000,,{\move(2048,65,-128,65)\q2\fs64}{\c&HDEC158}四大金刚
+Comment: NO.1308:unknow type
+Dialogue: 0,0:22:54.86,0:23:06.86,R2L,,0000,0000,0000,,{\move(2064,1,-144,1)\q2\fs64}{\c&HDEC158}嘉兴是055
+Dialogue: 0,0:22:54.86,0:23:06.86,R2L,,0000,0000,0000,,{\move(2144,65,-224,65)\q2\fs64}{\c&HDEC158}湖州舰是什么舰
+Dialogue: 0,0:22:57.47,0:23:09.47,R2L,,0000,0000,0000,,{\move(2224,129,-304,129)\q2\fs64}{\c&HD8EE54}你怎么知道我们有055
+Dialogue: 0,0:23:00.08,0:23:12.08,R2L,,0000,0000,0000,,{\move(2064,1,-144,1)\q2\fs64}hahahahah
+Comment: NO.1313:unknow type
+Dialogue: 0,0:23:02.66,0:23:14.66,R2L,,0000,0000,0000,,{\move(2016,1,-96,1)\q2\fs64}{\c&HD8EE54}北京呢
+Dialogue: 0,0:23:07.86,0:23:19.86,R2L,,0000,0000,0000,,{\move(2080,1,-160,1)\q2\fs64}{\c&HDEC158}湖州排队等
+Dialogue: 0,0:23:14.48,0:23:26.48,R2L,,0000,0000,0000,,{\move(2064,1,-144,1)\q2\fs64}{\c&HDEC158}嘉兴是055
+Comment: NO.1317:unknow type
+Dialogue: 0,0:23:24.78,0:23:36.78,R2L,,0000,0000,0000,,{\move(2208,1,-288,1)\q2\fs64}{\c&H6868FF}怡一边写稿一边发电
+Comment: NO.1319:unknow type
+Dialogue: 0,0:23:29.96,0:23:41.96,R2L,,0000,0000,0000,,{\move(2224,1,-304,1)\q2\fs64}{\c&H4FEDFF}有055腰杆子就是硬气
+Dialogue: 0,0:23:32.57,0:23:44.57,R2L,,0000,0000,0000,,{\move(2016,65,-96,65)\q2\fs64}{\c&HDEC158}王世纯
+Comment: NO.1322:unknow type
+Comment: NO.1323:unknow type
+Comment: NO.1324:unknow type
+Comment: NO.1325:unknow type
+Comment: NO.1326:unknow type
+Dialogue: 0,0:23:59.86,0:24:11.86,R2L,,0000,0000,0000,,{\move(1952,1,-32,1)\q2\fs64}咩
+Comment: NO.1328:unknow type
+Comment: NO.1329:unknow type
+Comment: NO.1330:unknow type
+Comment: NO.1331:unknow type
+Comment: NO.1332:unknow type
+Comment: NO.1333:unknow type
+Comment: NO.1334:unknow type
+Comment: NO.1335:unknow type
+Comment: NO.1336:unknow type
+Dialogue: 0,0:24:03.76,0:24:15.76,R2L,,0000,0000,0000,,{\move(2112,1,-192,1)\q2\fs64}排名不分先后
+Comment: NO.1338:unknow type
+Dialogue: 0,0:24:20.66,0:24:32.66,R2L,,0000,0000,0000,,{\move(2112,1,-192,1)\q2\fs64}{\c&HD8EE54}今晚不播了么
+Dialogue: 0,0:24:25.86,0:24:37.86,R2L,,0000,0000,0000,,{\move(2240,1,-320,1)\q2\fs64}{\c&HD8EE54}施佬的怨气哈哈哈哈哈
+Dialogue: 0,0:24:27.16,0:24:39.16,R2L,,0000,0000,0000,,{\move(2272,65,-352,65)\q2\fs64}{\c&HDEC158}主编的权力是无限的！！
+Comment: NO.1342:unknow type
+Comment: NO.1343:unknow type
+Comment: NO.1344:unknow type
+Comment: NO.1345:unknow type
+Comment: NO.1346:unknow type
+Comment: NO.1347:unknow type
+Comment: NO.1348:unknow type
+Comment: NO.1349:unknow type
+Comment: NO.1350:unknow type
+Comment: NO.1351:unknow type
+Comment: NO.1352:unknow type
+Comment: NO.1353:unknow type
+Comment: NO.1354:unknow type
+Comment: NO.1355:unknow type
+Comment: NO.1356:unknow type
+Comment: NO.1357:unknow type
+Comment: NO.1358:unknow type
+Comment: NO.1359:unknow type
+Comment: NO.1360:unknow type
+Comment: NO.1361:unknow type
+Comment: NO.1362:unknow type
+Comment: NO.1363:unknow type
+Comment: NO.1364:unknow type
+Comment: NO.1365:unknow type
+Comment: NO.1366:unknow type
+Comment: NO.1367:unknow type
+Comment: NO.1368:unknow type
+Comment: NO.1369:unknow type
+Comment: NO.1370:unknow type
+Comment: NO.1371:unknow type
+Comment: NO.1372:unknow type
+Comment: NO.1373:unknow type
+Comment: NO.1374:unknow type
+Comment: NO.1375:unknow type
+Comment: NO.1376:unknow type
+Comment: NO.1377:unknow type
+Comment: NO.1378:unknow type
+Comment: NO.1379:unknow type
+Comment: NO.1380:unknow type
+Comment: NO.1381:unknow type
+Comment: NO.1382:unknow type
+Comment: NO.1383:unknow type
+Comment: NO.1384:unknow type
+Comment: NO.1385:unknow type
+Comment: NO.1386:unknow type
+Comment: NO.1387:unknow type
+Comment: NO.1388:unknow type
+Comment: NO.1389:unknow type
+Comment: NO.1390:unknow type
+Comment: NO.1391:unknow type
+Comment: NO.1392:unknow type
+Comment: NO.1393:unknow type
+Comment: NO.1394:unknow type
+Comment: NO.1395:unknow type
+Comment: NO.1396:unknow type
+Comment: NO.1397:unknow type
+Comment: NO.1398:unknow type
+Comment: NO.1399:unknow type
+Comment: NO.1400:unknow type
+Comment: NO.1401:unknow type
+Comment: NO.1402:unknow type
+Comment: NO.1403:unknow type
+Comment: NO.1404:unknow type
+Comment: NO.1405:unknow type
+Comment: NO.1406:unknow type
+Comment: NO.1407:unknow type
+Comment: NO.1408:unknow type
+Comment: NO.1409:unknow type
+Comment: NO.1410:unknow type
+Comment: NO.1411:unknow type
+Comment: NO.1412:unknow type
+Comment: NO.1413:unknow type
+Comment: NO.1414:unknow type
+Comment: NO.1415:unknow type
+Comment: NO.1416:unknow type
+Comment: NO.1417:unknow type
+Comment: NO.1418:unknow type
+Comment: NO.1419:unknow type
+Comment: NO.1420:unknow type
+Comment: NO.1421:unknow type
+Comment: NO.1422:unknow type
+Comment: NO.1423:unknow type
+Comment: NO.1424:unknow type
+Comment: NO.1425:unknow type
+Comment: NO.1426:unknow type
+Comment: NO.1427:unknow type
+Comment: NO.1428:unknow type
+Comment: NO.1429:unknow type
+Comment: NO.1430:unknow type
+Comment: NO.1431:unknow type
+Comment: NO.1432:unknow type
+Comment: NO.1433:unknow type
+Comment: NO.1434:unknow type
+Comment: NO.1435:unknow type
+Comment: NO.1436:unknow type
+Comment: NO.1437:unknow type
+Comment: NO.1438:unknow type
+Comment: NO.1439:unknow type
+Comment: NO.1440:unknow type
+Comment: NO.1441:unknow type
+Dialogue: 0,0:25:04.87,0:25:16.87,R2L,,0000,0000,0000,,{\move(1984,1,-64,1)\q2\fs64}{\c&HDEC158}好！
+Comment: NO.1443:unknow type
+Comment: NO.1444:unknow type
+Comment: NO.1445:unknow type
+Comment: NO.1446:unknow type
+Comment: NO.1447:unknow type
+Comment: NO.1448:unknow type
+Comment: NO.1449:unknow type
+Comment: NO.1450:unknow type
+Comment: NO.1451:unknow type
+Dialogue: 0,0:25:08.77,0:25:20.77,R2L,,0000,0000,0000,,{\move(2208,1,-288,1)\q2\fs64}{\c&HDEC158}开始半个小时了吗？
+Comment: NO.1453:unknow type
+Comment: NO.1454:unknow type
+Comment: NO.1455:unknow type
+Comment: NO.1456:unknow type
+Comment: NO.1457:unknow type
+Comment: NO.1458:unknow type
+Comment: NO.1459:unknow type
+Comment: NO.1460:unknow type
+Comment: NO.1461:unknow type
+Comment: NO.1462:unknow type
+Comment: NO.1463:unknow type
+Comment: NO.1464:unknow type
+Comment: NO.1465:unknow type
+Comment: NO.1466:unknow type
+Comment: NO.1467:unknow type
+Comment: NO.1468:unknow type
+Comment: NO.1469:unknow type
+Comment: NO.1470:unknow type
+Comment: NO.1471:unknow type
+Comment: NO.1472:unknow type
+Comment: NO.1473:unknow type
+Comment: NO.1474:unknow type
+Comment: NO.1475:unknow type
+Comment: NO.1476:unknow type
+Comment: NO.1477:unknow type
+Comment: NO.1478:unknow type
+Comment: NO.1479:unknow type
+Comment: NO.1480:unknow type
+Comment: NO.1481:unknow type
+Comment: NO.1482:unknow type
+Comment: NO.1483:unknow type
+Comment: NO.1484:unknow type
+Comment: NO.1485:unknow type
+Comment: NO.1486:unknow type
+Comment: NO.1487:unknow type
+Comment: NO.1488:unknow type
+Comment: NO.1489:unknow type
+Comment: NO.1490:unknow type
+Comment: NO.1491:unknow type
+Comment: NO.1492:unknow type
+Comment: NO.1493:unknow type
+Comment: NO.1494:unknow type
+Comment: NO.1495:unknow type
+Comment: NO.1496:unknow type
+Comment: NO.1497:unknow type
+Comment: NO.1498:unknow type
+Comment: NO.1499:unknow type
+Comment: NO.1500:unknow type
+Comment: NO.1501:unknow type
+Comment: NO.1502:unknow type
+Comment: NO.1503:unknow type
+Comment: NO.1504:unknow type
+Comment: NO.1505:unknow type
+Comment: NO.1506:unknow type
+Dialogue: 0,0:25:32.16,0:25:44.16,R2L,,0000,0000,0000,,{\move(2272,1,-352,1)\q2\fs64}养鸡老爷怎么看怡的新癫
+Comment: NO.1508:unknow type
+Comment: NO.1509:unknow type
+Comment: NO.1510:unknow type
+Comment: NO.1511:unknow type
+Comment: NO.1512:unknow type
+Comment: NO.1513:unknow type
+Comment: NO.1514:unknow type
+Comment: NO.1515:unknow type
+Comment: NO.1516:unknow type
+Comment: NO.1517:unknow type
+Comment: NO.1518:unknow type
+Comment: NO.1519:unknow type
+Dialogue: 0,0:25:51.67,0:26:03.67,R2L,,0000,0000,0000,,{\move(2128,1,-208,1)\q2\fs64}{\c&HDEC158}老陆:还得是我
+Comment: NO.1521:unknow type
+Comment: NO.1522:unknow type
+Comment: NO.1523:unknow type
+Comment: NO.1524:unknow type
+Comment: NO.1525:unknow type
+Comment: NO.1526:unknow type
+Comment: NO.1527:unknow type
+Comment: NO.1528:unknow type
+Comment: NO.1529:unknow type
+Comment: NO.1530:unknow type
+Comment: NO.1531:unknow type
+Comment: NO.1532:unknow type
+Comment: NO.1533:unknow type
+Comment: NO.1534:unknow type
+Dialogue: 0,0:26:16.36,0:26:28.36,R2L,,0000,0000,0000,,{\move(1984,1,-64,1)\q2\fs64}咩！
+Dialogue: 0,0:26:28.06,0:26:40.06,R2L,,0000,0000,0000,,{\move(2016,1,-96,1)\q2\fs64}阿怡呢
+Dialogue: 0,0:26:30.66,0:26:42.66,R2L,,0000,0000,0000,,{\move(2016,1,-96,1)\q2\fs64}{\c&HDEC158}绍兴舰
+Comment: NO.1538:unknow type
+Dialogue: 0,0:26:33.26,0:26:45.26,R2L,,0000,0000,0000,,{\move(2016,1,-96,1)\q2\fs64}{\c&H6868FF}班超号
+Comment: NO.1540:unknow type
+Comment: NO.1541:unknow type
+Comment: NO.1542:unknow type
+Comment: NO.1543:unknow type
+Comment: NO.1544:unknow type
+Dialogue: 0,0:26:35.87,0:26:47.87,R2L,,0000,0000,0000,,{\move(1984,1,-64,1)\q2\fs64}{\c&HD8EE54}怡咩
+Dialogue: 0,0:26:38.46,0:26:50.46,R2L,,0000,0000,0000,,{\move(2016,1,-96,1)\q2\fs64}{\c&H6868FF}绍兴号
+Comment: NO.1547:unknow type
+Comment: NO.1548:unknow type
+Dialogue: 0,0:26:44.97,0:26:56.97,R2L,,0000,0000,0000,,{\move(2048,1,-128,1)\q2\fs64}欧皇驾到
+Comment: NO.1550:unknow type
+Comment: NO.1551:unknow type
+Comment: NO.1552:unknow type
+Comment: NO.1553:unknow type
+Comment: NO.1554:unknow type
+Comment: NO.1555:unknow type
+Comment: NO.1556:unknow type
+Comment: NO.1557:unknow type
+Dialogue: 0,0:26:51.54,0:27:03.54,R2L,,0000,0000,0000,,{\move(2144,1,-224,1)\q2\fs64}{\c&HDEC158}这什么渔船？？
+Comment: NO.1559:unknow type
+Comment: NO.1560:unknow type
+Comment: NO.1561:unknow type
+Comment: NO.1562:unknow type
+Dialogue: 0,0:27:07.06,0:27:19.06,R2L,,0000,0000,0000,,{\move(2080,1,-160,1)\q2\fs64}还不到七点
+Comment: NO.1564:unknow type
+Comment: NO.1565:unknow type
+Dialogue: 0,0:27:16.17,0:27:28.17,R2L,,0000,0000,0000,,{\move(1984,1,-64,1)\q2\fs64}{\c&HDEC158}来了
+Dialogue: 0,0:27:20.06,0:27:32.06,R2L,,0000,0000,0000,,{\move(1952,1,-32,1)\q2\fs64}{\c&HDEC158}咩
+Dialogue: 0,0:27:21.36,0:27:33.36,R2L,,0000,0000,0000,,{\move(2048,65,-128,65)\q2\fs64}拉斐特级
+Dialogue: 0,0:27:22.67,0:27:34.67,R2L,,0000,0000,0000,,{\move(2080,1,-160,1)\q2\fs64}{\c&HDEC158}晚上还播吗
+Comment: NO.1570:unknow type
+Dialogue: 0,0:27:30.46,0:27:42.46,R2L,,0000,0000,0000,,{\move(2016,1,-96,1)\q2\fs64}{\c&HDEC158}拉法叶
+Dialogue: 0,0:28:01.66,0:28:13.66,R2L,,0000,0000,0000,,{\move(2080,1,-160,1)\q2\fs64}{\c&H6868FF}海鲲潜舰啦
+Dialogue: 0,0:28:10.76,0:28:22.76,R2L,,0000,0000,0000,,{\move(2176,1,-256,1)\q2\fs64}{\c&HDEC158}现在属于临时加演
+Dialogue: 0,0:28:17.26,0:28:29.26,R2L,,0000,0000,0000,,{\move(2144,1,-224,1)\q2\fs64}{\c&HD8EE54}啥时候开始的？
+Comment: NO.1575:unknow type
+Dialogue: 0,0:28:25.06,0:28:37.06,R2L,,0000,0000,0000,,{\move(1968,1,-48,1)\q2\fs64}{\c&HDEC158}3点
+Dialogue: 0,0:28:27.66,0:28:39.66,R2L,,0000,0000,0000,,{\move(2080,1,-160,1)\q2\fs64}{\c&HDEC158}二十多分钟
+Comment: NO.1578:unknow type
+Comment: NO.1579:unknow type
+Dialogue: 0,0:28:45.86,0:28:57.86,R2L,,0000,0000,0000,,{\move(2048,1,-128,1)\q2\fs64}{\c&HDEC158}稳住能赢
+Dialogue: 0,0:28:47.16,0:28:59.16,R2L,,0000,0000,0000,,{\move(2080,65,-160,65)\q2\fs64}晚上正常播
+Dialogue: 0,0:28:53.66,0:29:05.66,R2L,,0000,0000,0000,,{\move(1952,1,-32,1)\q2\fs64}{\c&H4FEDFF}好
+Comment: NO.1583:unknow type
+Comment: NO.1584:unknow type
+Comment: NO.1585:unknow type
+Comment: NO.1586:unknow type
+Comment: NO.1587:unknow type
+Dialogue: 0,0:29:01.46,0:29:13.46,R2L,,0000,0000,0000,,{\move(2240,1,-320,1)\q2\fs64}{\c&H4FEDFF}兄弟们我还是想开数量
+Dialogue: 0,0:29:05.36,0:29:17.36,R2L,,0000,0000,0000,,{\move(1984,1,-64,1)\q2\fs64}{\c&HDEC158}好好
+Dialogue: 0,0:29:05.36,0:29:17.36,R2L,,0000,0000,0000,,{\move(1952,65,-32,65)\q2\fs64}{\c&HDEC158}好
+Dialogue: 0,0:29:24.87,0:29:36.87,R2L,,0000,0000,0000,,{\move(2112,1,-192,1)\q2\fs64}{\c&HDEC158}银川？南宁？
+Dialogue: 0,0:29:27.46,0:29:39.46,R2L,,0000,0000,0000,,{\move(2192,65,-272,65)\q2\fs64}{\c&HDEC158}新嘉兴舰就是055啊
+Dialogue: 0,0:29:28.76,0:29:40.76,R2L,,0000,0000,0000,,{\move(1952,1,-32,1)\q2\fs64}{\c&HDEC158}咩
+Dialogue: 0,0:29:41.75,0:29:53.75,R2L,,0000,0000,0000,,{\move(2016,1,-96,1)\q2\fs64}辛苦了
+Dialogue: 0,0:29:46.96,0:29:58.96,R2L,,0000,0000,0000,,{\move(2128,1,-208,1)\q2\fs64}{\c&HD8EE54}一直播到8点！
+Dialogue: 0,0:29:46.96,0:29:58.96,R2L,,0000,0000,0000,,{\move(2064,65,-144,65)\q2\fs64}{\c&HD8EE54}哇\h辛苦啦
+Dialogue: 0,0:29:48.27,0:30:00.27,R2L,,0000,0000,0000,,{\move(1984,129,-64,129)\q2\fs64}{\c&HDEC158}辛苦
+Dialogue: 0,0:29:48.27,0:30:00.27,R2L,,0000,0000,0000,,{\move(2048,193,-128,193)\q2\fs64}{\c&HDEC158}一百期！
+Dialogue: 0,0:29:49.56,0:30:01.56,R2L,,0000,0000,0000,,{\move(2048,1,-128,1)\q2\fs64}{\c&HDEC158}讲！古！
+Dialogue: 0,0:29:54.76,0:30:06.76,R2L,,0000,0000,0000,,{\move(1984,1,-64,1)\q2\fs64}{\c&HDEC158}好耶
+Dialogue: 0,0:29:54.76,0:30:06.76,R2L,,0000,0000,0000,,{\move(2288,65,-368,65)\q2\fs64}{\c&HDEC158}东部战区的海报没有055啊
+Dialogue: 0,0:29:57.37,0:30:09.37,R2L,,0000,0000,0000,,{\move(2048,1,-128,1)\q2\fs64}{\c&H4FEDFF}吃蛋糕吗
+Dialogue: 0,0:29:57.37,0:30:09.37,R2L,,0000,0000,0000,,{\move(2128,129,-208,129)\q2\fs64}{\c&HD8EE54}7点33（指正）
+Dialogue: 0,0:29:58.67,0:30:10.67,R2L,,0000,0000,0000,,{\move(1984,65,-64,65)\q2\fs64}{\c&HDEC158}咩～
+Dialogue: 0,0:30:07.77,0:30:19.77,R2L,,0000,0000,0000,,{\move(1952,1,-32,1)\q2\fs64}{\c&HDEC158}哇
+Dialogue: 0,0:30:14.26,0:30:26.26,R2L,,0000,0000,0000,,{\move(2096,1,-176,1)\q2\fs64}{\c&H4FEDFF}好好好好好\h
+Dialogue: 0,0:30:15.65,0:30:27.65,R2L,,0000,0000,0000,,{\move(2288,65,-368,65)\q2\fs64}{\c&HDEC158}因为东部就是还没有055…
+Dialogue: 0,0:30:18.17,0:30:30.17,R2L,,0000,0000,0000,,{\move(2176,1,-256,1)\q2\fs64}{\c&H4FEDFF}能现场表演帧查么
+Dialogue: 0,0:30:19.47,0:30:31.47,R2L,,0000,0000,0000,,{\move(2112,65,-192,65)\q2\fs64}{\c&HDEC158}所以要加时长
+Dialogue: 0,0:30:25.98,0:30:37.98,R2L,,0000,0000,0000,,{\move(2096,1,-176,1)\q2\fs64}{\c&HFCFF00}东部没配055
+Comment: NO.1611:unknow type
+Dialogue: 0,0:30:31.17,0:30:43.17,R2L,,0000,0000,0000,,{\move(1984,1,-64,1)\q2\fs64}{\c&HD8EE54}6666
+Dialogue: 0,0:30:31.17,0:30:43.17,R2L,,0000,0000,0000,,{\move(1968,65,-48,65)\q2\fs64}{\c&HDEC158}052
+Dialogue: 0,0:30:31.17,0:30:43.17,R2L,,0000,0000,0000,,{\move(2128,129,-208,129)\q2\fs64}{\c&HDEC158}055是在南海吗
+Comment: NO.1615:unknow type
+Dialogue: 0,0:30:46.89,0:30:58.89,R2L,,0000,0000,0000,,{\move(1984,1,-64,1)\q2\fs64}{\c&HD8EE54}冲鸭
+Comment: NO.1617:unknow type
+Comment: NO.1618:unknow type
+Dialogue: 0,0:30:48.06,0:31:00.06,R2L,,0000,0000,0000,,{\move(2080,65,-160,65)\q2\fs64}{\c&HDEC158}在黄岩岛么
+Comment: NO.1620:unknow type
+Dialogue: 0,0:31:11.47,0:31:23.47,R2L,,0000,0000,0000,,{\move(1952,1,-32,1)\q2\fs64}{\c&HDEC158}咩
+Comment: NO.1622:unknow type
+Comment: NO.1623:unknow type
+Comment: NO.1624:unknow type
+Comment: NO.1625:unknow type
+Comment: NO.1626:unknow type
+Comment: NO.1627:unknow type
+Dialogue: 0,0:31:29.66,0:31:41.66,R2L,,0000,0000,0000,,{\move(1984,1,-64,1)\q2\fs64}{\c&HDEC158}冲鸭
+Dialogue: 0,0:31:29.66,0:31:41.66,R2L,,0000,0000,0000,,{\move(1984,65,-64,65)\q2\fs64}{\c&HDEC158}冲鸭
+Comment: NO.1630:unknow type
+Comment: NO.1631:unknow type
+Dialogue: 0,0:31:32.27,0:31:44.27,R2L,,0000,0000,0000,,{\move(1984,1,-64,1)\q2\fs64}{\c&HDEC158}upup
+Dialogue: 0,0:31:37.45,0:31:49.45,R2L,,0000,0000,0000,,{\move(2016,1,-96,1)\q2\fs64}{\c&HDEC158}头吸！
+Dialogue: 0,0:31:53.06,0:32:05.06,R2L,,0000,0000,0000,,{\move(1936,1,-16,1)\q2\fs64}{\c&HD8EE54}2
+Comment: NO.1635:unknow type
+Comment: NO.1636:unknow type
+Comment: NO.1637:unknow type
+Comment: NO.1638:unknow type
+Comment: NO.1639:unknow type
+Comment: NO.1640:unknow type
+Comment: NO.1641:unknow type
+Comment: NO.1642:unknow type
+Comment: NO.1643:unknow type
+Comment: NO.1644:unknow type
+Comment: NO.1645:unknow type
+Comment: NO.1646:unknow type
+Comment: NO.1647:unknow type
+Comment: NO.1648:unknow type
+Comment: NO.1649:unknow type
+Comment: NO.1650:unknow type
+Comment: NO.1651:unknow type
+Comment: NO.1652:unknow type
+Comment: NO.1653:unknow type
+Comment: NO.1654:unknow type
+Comment: NO.1655:unknow type
+Comment: NO.1656:unknow type
+Comment: NO.1657:unknow type
+Comment: NO.1658:unknow type
+Comment: NO.1659:unknow type
+Comment: NO.1660:unknow type
+Comment: NO.1661:unknow type
+Comment: NO.1662:unknow type
+Comment: NO.1663:unknow type
+Comment: NO.1664:unknow type
+Comment: NO.1665:unknow type
+Comment: NO.1666:unknow type
+Dialogue: 0,0:32:20.36,0:32:32.36,R2L,,0000,0000,0000,,{\move(1984,1,-64,1)\q2\fs64}{\c&HDEC158}打卡
+Comment: NO.1668:unknow type
+Dialogue: 0,0:32:25.57,0:32:37.57,R2L,,0000,0000,0000,,{\move(2368,1,-448,1)\q2\fs64}{\c&HDEC158}有没有可能放点是老的素材？？
+Comment: NO.1670:unknow type
+Dialogue: 0,0:32:38.57,0:32:50.57,R2L,,0000,0000,0000,,{\move(1984,1,-64,1)\q2\fs64}{\c&HDEC158}歼20
+Dialogue: 0,0:32:39.86,0:32:51.86,R2L,,0000,0000,0000,,{\move(1984,1,-64,1)\q2\fs64}{\c&HDEC158}打卡
+Comment: NO.1673:unknow type
+Dialogue: 0,0:32:46.37,0:32:58.37,R2L,,0000,0000,0000,,{\move(1984,1,-64,1)\q2\fs64}{\c&HD8EE54}upup
+Dialogue: 0,0:32:48.95,0:33:00.95,R2L,,0000,0000,0000,,{\move(2304,65,-384,65)\q2\fs64}{\c&HDEC158}今天播的一直都是这条视频
+Dialogue: 0,0:32:50.25,0:33:02.25,R2L,,0000,0000,0000,,{\move(2016,1,-96,1)\q2\fs64}{\c&HDEC158}没看到
+Dialogue: 0,0:32:54.15,0:33:06.15,R2L,,0000,0000,0000,,{\move(2032,1,-112,1)\q2\fs64}{\c&HDEC158}真\h隐形
+Dialogue: 0,0:33:08.46,0:33:20.46,R2L,,0000,0000,0000,,{\move(2144,1,-224,1)\q2\fs64}{\c&HDEC158}循环播放半天了
+Comment: NO.1679:unknow type
+Dialogue: 0,0:33:24.06,0:33:36.06,R2L,,0000,0000,0000,,{\move(2048,1,-128,1)\q2\fs64}{\c&HD8EE54}这个好耶
+Dialogue: 0,0:33:29.26,0:33:41.26,R2L,,0000,0000,0000,,{\move(2272,1,-352,1)\q2\fs64}{\c&HDEC158}要等新闻联播才有新素材
+Dialogue: 0,0:33:33.17,0:33:45.17,R2L,,0000,0000,0000,,{\move(2064,1,-144,1)\q2\fs64}{\c&HDEC158}楼梯Duang
+Dialogue: 0,0:33:50.06,0:34:02.06,R2L,,0000,0000,0000,,{\move(2080,1,-160,1)\q2\fs64}{\c&HDEC158}战斗警报！
+Dialogue: 0,0:33:51.36,0:34:03.36,R2L,,0000,0000,0000,,{\move(2128,65,-208,65)\q2\fs64}{\c&H6868FF}战~斗~警-报！
+Dialogue: 0,0:33:57.86,0:34:09.86,R2L,,0000,0000,0000,,{\move(2128,1,-208,1)\q2\fs64}{\c&HDEC158}╮(￣▽￣)╭.
+Comment: NO.1686:unknow type
+Dialogue: 0,0:34:05.65,0:34:17.65,R2L,,0000,0000,0000,,{\move(1984,1,-64,1)\q2\fs64}{\c&HDEC158}冲鸭
+Dialogue: 0,0:34:14.76,0:34:26.76,R2L,,0000,0000,0000,,{\move(2016,1,-96,1)\q2\fs64}{\c&HDEC158}怎么搞
+Comment: NO.1689:unknow type
+Comment: NO.1690:unknow type
+Comment: NO.1691:unknow type
+Comment: NO.1692:unknow type
+Comment: NO.1693:unknow type
+Comment: NO.1694:unknow type
+Comment: NO.1695:unknow type
+Comment: NO.1696:unknow type
+Comment: NO.1697:unknow type
+Comment: NO.1698:unknow type
+Comment: NO.1699:unknow type
+Comment: NO.1700:unknow type
+Comment: NO.1701:unknow type
+Comment: NO.1702:unknow type
+Comment: NO.1703:unknow type
+Comment: NO.1704:unknow type
+Comment: NO.1705:unknow type
+Comment: NO.1706:unknow type
+Comment: NO.1707:unknow type
+Comment: NO.1708:unknow type
+Comment: NO.1709:unknow type
+Comment: NO.1710:unknow type
+Dialogue: 0,0:34:25.17,0:34:37.17,R2L,,0000,0000,0000,,{\move(1936,1,-16,1)\q2\fs64}{\c&HDEC158}.
+Comment: NO.1712:unknow type
+Comment: NO.1713:unknow type
+Comment: NO.1714:unknow type
+Comment: NO.1715:unknow type
+Comment: NO.1716:unknow type
+Comment: NO.1717:unknow type
+Comment: NO.1718:unknow type
+Comment: NO.1719:unknow type
+Comment: NO.1720:unknow type
+Comment: NO.1721:unknow type
+Comment: NO.1722:unknow type
+Comment: NO.1723:unknow type
+Comment: NO.1724:unknow type
+Comment: NO.1725:unknow type
+Comment: NO.1726:unknow type
+Comment: NO.1727:unknow type
+Comment: NO.1728:unknow type
+Comment: NO.1729:unknow type
+Comment: NO.1730:unknow type
+Comment: NO.1731:unknow type
+Comment: NO.1732:unknow type
+Comment: NO.1733:unknow type
+Comment: NO.1734:unknow type
+Comment: NO.1735:unknow type
+Comment: NO.1736:unknow type
+Comment: NO.1737:unknow type
+Comment: NO.1738:unknow type
+Comment: NO.1739:unknow type
+Comment: NO.1740:unknow type
+Comment: NO.1741:unknow type
+Comment: NO.1742:unknow type
+Comment: NO.1743:unknow type
+Comment: NO.1744:unknow type
+Comment: NO.1745:unknow type
+Comment: NO.1746:unknow type
+Comment: NO.1747:unknow type
+Comment: NO.1748:unknow type
+Comment: NO.1749:unknow type
+Comment: NO.1750:unknow type
+Dialogue: 0,0:34:36.86,0:34:48.86,R2L,,0000,0000,0000,,{\move(2048,1,-128,1)\q2\fs64}{\c&HFCFF00}某春模式
+Dialogue: 0,0:34:42.07,0:34:54.07,R2L,,0000,0000,0000,,{\move(1984,1,-64,1)\q2\fs64}{\c&HDEC158}冲鸭
+Comment: NO.1753:unknow type
+Comment: NO.1754:unknow type
+Comment: NO.1755:unknow type
+Comment: NO.1756:unknow type
+Comment: NO.1757:unknow type
+Comment: NO.1758:unknow type
+Comment: NO.1759:unknow type
+Comment: NO.1760:unknow type
+Comment: NO.1761:unknow type
+Comment: NO.1762:unknow type
+Comment: NO.1763:unknow type
+Comment: NO.1764:unknow type
+Comment: NO.1765:unknow type
+Comment: NO.1766:unknow type
+Comment: NO.1767:unknow type
+Comment: NO.1768:unknow type
+Comment: NO.1769:unknow type
+Comment: NO.1770:unknow type
+Comment: NO.1771:unknow type
+Comment: NO.1772:unknow type
+Comment: NO.1773:unknow type
+Comment: NO.1774:unknow type
+Comment: NO.1775:unknow type
+Comment: NO.1776:unknow type
+Comment: NO.1777:unknow type
+Comment: NO.1778:unknow type
+Comment: NO.1779:unknow type
+Comment: NO.1780:unknow type
+Dialogue: 0,0:35:35.35,0:35:47.35,R2L,,0000,0000,0000,,{\move(1984,1,-64,1)\q2\fs64}6666
+Dialogue: 0,0:35:41.87,0:35:53.87,R2L,,0000,0000,0000,,{\move(1984,1,-64,1)\q2\fs64}{\c&HDEC158}冲鸭
+Comment: NO.1783:unknow type
+Dialogue: 0,0:35:45.75,0:35:57.75,R2L,,0000,0000,0000,,{\move(2016,1,-96,1)\q2\fs64}{\c&HDEC158}泰裤辣
+Comment: NO.1785:unknow type
+Dialogue: 0,0:35:54.85,0:36:06.85,R2L,,0000,0000,0000,,{\move(1952,1,-32,1)\q2\fs64}{\c&HDEC158}！
+Dialogue: 0,0:35:56.15,0:36:08.15,R2L,,0000,0000,0000,,{\move(2144,65,-224,65)\q2\fs64}{\c&HD8EE54}不然就要投胎了
+Dialogue: 0,0:35:56.15,0:36:08.15,R2L,,0000,0000,0000,,{\move(2048,129,-128,129)\q2\fs64}{\c&HDEC158}战略恐吓
+Dialogue: 0,0:35:57.47,0:36:09.47,R2L,,0000,0000,0000,,{\move(1952,1,-32,1)\q2\fs64}乐
+Dialogue: 0,0:36:00.06,0:36:12.06,R2L,,0000,0000,0000,,{\move(2112,1,-192,1)\q2\fs64}{\c&HDEC158}时间差不多咯
+Dialogue: 0,0:36:00.06,0:36:12.06,R2L,,0000,0000,0000,,{\move(1984,65,-64,65)\q2\fs64}{\c&HDEC158}冲鸭
+Dialogue: 0,0:36:01.36,0:36:13.36,R2L,,0000,0000,0000,,{\move(1952,65,-32,65)\q2\fs64}{\c&HD8EE54}乐
+Dialogue: 0,0:36:01.36,0:36:13.36,R2L,,0000,0000,0000,,{\move(2112,129,-192,129)\q2\fs64}{\c&HDEC158}时间差不多咯
+Dialogue: 0,0:36:01.36,0:36:13.36,R2L,,0000,0000,0000,,{\move(2112,193,-192,193)\q2\fs64}{\c&HD8EE54}时间差不多喽
+Comment: NO.1795:unknow type
+Comment: NO.1796:unknow type
+Comment: NO.1797:unknow type
+Comment: NO.1798:unknow type
+Comment: NO.1799:unknow type
+Comment: NO.1800:unknow type
+Comment: NO.1801:unknow type
+Comment: NO.1802:unknow type
+Comment: NO.1803:unknow type
+Comment: NO.1804:unknow type
+Comment: NO.1805:unknow type
+Comment: NO.1806:unknow type
+Comment: NO.1807:unknow type
+Comment: NO.1808:unknow type
+Comment: NO.1809:unknow type
+Comment: NO.1810:unknow type
+Comment: NO.1811:unknow type
+Comment: NO.1812:unknow type
+Comment: NO.1813:unknow type
+Comment: NO.1814:unknow type
+Comment: NO.1815:unknow type
+Comment: NO.1816:unknow type
+Comment: NO.1817:unknow type
+Comment: NO.1818:unknow type
+Dialogue: 0,0:36:14.36,0:36:26.36,R2L,,0000,0000,0000,,{\move(2512,1,-592,1)\q2\fs64}{\c&HDEC158}这大环境\h打下来一架台伪的战斗机也没啥
+Comment: NO.1820:unknow type
+Comment: NO.1821:unknow type
+Comment: NO.1822:unknow type
+Dialogue: 0,0:36:15.65,0:36:27.65,R2L,,0000,0000,0000,,{\move(2208,65,-288,65)\q2\fs64}{\c&HD8EE54}我的战机绕着宝岛飞
+Comment: NO.1824:unknow type
+Comment: NO.1825:unknow type
+Comment: NO.1826:unknow type
+Comment: NO.1827:unknow type
+Comment: NO.1828:unknow type
+Comment: NO.1829:unknow type
+Comment: NO.1830:unknow type
+Comment: NO.1831:unknow type
+Comment: NO.1832:unknow type
+Comment: NO.1833:unknow type
+Comment: NO.1834:unknow type
+Comment: NO.1835:unknow type
+Comment: NO.1836:unknow type
+Comment: NO.1837:unknow type
+Comment: NO.1838:unknow type
+Comment: NO.1839:unknow type
+Comment: NO.1840:unknow type
+Dialogue: 0,0:36:26.06,0:36:38.06,R2L,,0000,0000,0000,,{\move(2176,1,-256,1)\q2\fs64}{\c&H4FEDFF}雀食能跑的早跑了
+Dialogue: 0,0:36:29.95,0:36:41.95,R2L,,0000,0000,0000,,{\move(2112,1,-192,1)\q2\fs64}时间差不多咯
+Comment: NO.1843:unknow type
+Comment: NO.1844:unknow type
+Comment: NO.1845:unknow type
+Comment: NO.1846:unknow type
+Comment: NO.1847:unknow type
+Comment: NO.1848:unknow type
+Comment: NO.1849:unknow type
+Comment: NO.1850:unknow type
+Comment: NO.1851:unknow type
+Comment: NO.1852:unknow type
+Comment: NO.1853:unknow type
+Comment: NO.1854:unknow type
+Comment: NO.1855:unknow type
+Comment: NO.1856:unknow type
+Comment: NO.1857:unknow type
+Comment: NO.1858:unknow type
+Comment: NO.1859:unknow type
+Comment: NO.1860:unknow type
+Comment: NO.1861:unknow type
+Comment: NO.1862:unknow type
+Comment: NO.1863:unknow type
+Comment: NO.1864:unknow type
+Comment: NO.1865:unknow type
+Dialogue: 0,0:36:52.05,0:37:04.05,R2L,,0000,0000,0000,,{\move(2208,1,-288,1)\q2\fs64}{\c&HD8EE54}我的军舰绕着宝岛转
+Dialogue: 0,0:37:10.25,0:37:22.25,R2L,,0000,0000,0000,,{\move(1984,1,-64,1)\q2\fs64}{\c&HDEC158}特别
+Comment: NO.1868:unknow type
+Comment: NO.1869:unknow type
+Comment: NO.1870:unknow type
+Dialogue: 0,0:37:23.26,0:37:35.26,R2L,,0000,0000,0000,,{\move(2144,1,-224,1)\q2\fs64}{\c&HDEC158}这还是老画面吧
+Dialogue: 0,0:37:27.18,0:37:39.18,R2L,,0000,0000,0000,,{\move(1984,1,-64,1)\q2\fs64}{\c&HDEC158}行动
+Dialogue: 0,0:37:33.65,0:37:45.65,R2L,,0000,0000,0000,,{\move(1984,1,-64,1)\q2\fs64}{\c&HFCFF00}冲鸭
+Comment: NO.1874:unknow type
+Dialogue: 0,0:37:46.66,0:37:58.66,R2L,,0000,0000,0000,,{\move(2176,1,-256,1)\q2\fs64}{\c&HD8EE54}各军种绕着宝岛玩
+Comment: NO.1876:unknow type
+Dialogue: 0,0:37:49.26,0:38:01.26,R2L,,0000,0000,0000,,{\move(1984,1,-64,1)\q2\fs64}冲鸭
+Comment: NO.1878:unknow type
+Dialogue: 0,0:37:58.37,0:38:10.37,R2L,,0000,0000,0000,,{\move(2080,1,-160,1)\q2\fs64}{\c&HDEC158}大的要来咧
+Dialogue: 0,0:38:00.96,0:38:12.96,R2L,,0000,0000,0000,,{\move(2112,1,-192,1)\q2\fs64}{\c&H4FEDFF}派里级巡防舰
+Dialogue: 0,0:38:03.65,0:38:15.65,R2L,,0000,0000,0000,,{\move(2272,65,-352,65)\q2\fs64}{\c&HDEC158}晚上咩咩特工队还有吗？
+Dialogue: 0,0:38:11.36,0:38:23.36,R2L,,0000,0000,0000,,{\move(1952,1,-32,1)\q2\fs64}{\c&HDEC158}有
+Dialogue: 0,0:38:15.26,0:38:27.26,R2L,,0000,0000,0000,,{\move(1952,1,-32,1)\q2\fs64}有
+Dialogue: 0,0:38:19.15,0:38:31.15,R2L,,0000,0000,0000,,{\move(1984,1,-64,1)\q2\fs64}{\c&HDEC158}好嘞
+Dialogue: 0,0:38:28.25,0:38:40.25,R2L,,0000,0000,0000,,{\move(2176,1,-256,1)\q2\fs64}{\c&HDEC158}在整个舰岛的上部
+Dialogue: 0,0:38:51.83,0:39:03.83,R2L,,0000,0000,0000,,{\move(2240,1,-320,1)\q2\fs64}{\c&HDEC158}对峙\h？\h杭州舰不困了
+Comment: NO.1887:unknow type
+Dialogue: 0,0:38:58.89,0:39:10.89,R2L,,0000,0000,0000,,{\move(2048,1,-128,1)\q2\fs64}{\c&HD8EE54}来了来了
+Dialogue: 0,0:38:59.46,0:39:11.46,R2L,,0000,0000,0000,,{\move(2176,65,-256,65)\q2\fs64}{\c&HDEC158}对峙？还有这好事
+Comment: NO.1890:unknow type
+Comment: NO.1891:unknow type
+Comment: NO.1892:unknow type
+Dialogue: 0,0:39:25.47,0:39:37.47,R2L,,0000,0000,0000,,{\move(2128,1,-208,1)\q2\fs64}{\c&H6868FF}730和火箭深弹
+Dialogue: 0,0:39:29.35,0:39:41.35,R2L,,0000,0000,0000,,{\move(2240,1,-320,1)\q2\fs64}{\c&H4FEDFF}今晚还有羊羔特工队吗
+Dialogue: 0,0:39:38.46,0:39:50.46,R2L,,0000,0000,0000,,{\move(1952,1,-32,1)\q2\fs64}{\c&HDEC158}有
+Dialogue: 0,0:39:38.46,0:39:50.46,R2L,,0000,0000,0000,,{\move(2080,65,-160,65)\q2\fs64}{\c&H4FEDFF}晚上正常播
+Dialogue: 0,0:39:41.06,0:39:53.06,R2L,,0000,0000,0000,,{\move(1952,1,-32,1)\q2\fs64}{\c&HD8EE54}有
+Dialogue: 0,0:39:42.36,0:39:54.36,R2L,,0000,0000,0000,,{\move(1984,1,-64,1)\q2\fs64}照常
+Dialogue: 0,0:40:26.55,0:40:38.55,R2L,,0000,0000,0000,,{\move(1984,1,-64,1)\q2\fs64}{\c&HD8EE54}紫色
+Dialogue: 0,0:40:40.85,0:40:52.85,R2L,,0000,0000,0000,,{\move(1984,1,-64,1)\q2\fs64}{\c&HDEC158}冲鸭
+Dialogue: 0,0:40:42.16,0:40:54.16,R2L,,0000,0000,0000,,{\move(2048,65,-128,65)\q2\fs64}{\c&HFCFF00}不压着了
+Comment: NO.1902:unknow type
+Dialogue: 0,0:40:56.46,0:41:08.46,R2L,,0000,0000,0000,,{\move(1984,1,-64,1)\q2\fs64}{\c&HDEC158}冲鸭
+Dialogue: 0,0:40:57.76,0:41:09.76,R2L,,0000,0000,0000,,{\move(2048,65,-128,65)\q2\fs64}{\c&HDEC158}；；；；
+Dialogue: 0,0:41:06.86,0:41:18.86,R2L,,0000,0000,0000,,{\move(2208,1,-288,1)\q2\fs64}{\c&HDEC158}绳子勒的越来越紧乐
+Comment: NO.1906:unknow type
+Dialogue: 0,0:41:09.46,0:41:21.46,R2L,,0000,0000,0000,,{\move(2048,65,-128,65)\q2\fs64}{\c&HDEC158}无事发生
+Dialogue: 0,0:41:10.76,0:41:22.76,R2L,,0000,0000,0000,,{\move(2016,1,-96,1)\q2\fs64}{\c&HDEC158}解决了
+Comment: NO.1909:unknow type
+Comment: NO.1910:unknow type
+Comment: NO.1911:unknow type
+Comment: NO.1912:unknow type
+Comment: NO.1913:unknow type
+Comment: NO.1914:unknow type
+Comment: NO.1915:unknow type
+Comment: NO.1916:unknow type
+Comment: NO.1917:unknow type
+Comment: NO.1918:unknow type
+Comment: NO.1919:unknow type
+Comment: NO.1920:unknow type
+Comment: NO.1921:unknow type
+Comment: NO.1922:unknow type
+Comment: NO.1923:unknow type
+Comment: NO.1924:unknow type
+Comment: NO.1925:unknow type
+Comment: NO.1926:unknow type
+Comment: NO.1927:unknow type
+Comment: NO.1928:unknow type
+Comment: NO.1929:unknow type
+Comment: NO.1930:unknow type
+Comment: NO.1931:unknow type
+Comment: NO.1932:unknow type
+Comment: NO.1933:unknow type
+Comment: NO.1934:unknow type
+Comment: NO.1935:unknow type
+Comment: NO.1936:unknow type
+Comment: NO.1937:unknow type
+Comment: NO.1938:unknow type
+Comment: NO.1939:unknow type
+Comment: NO.1940:unknow type
+Dialogue: 0,0:41:18.56,0:41:30.56,R2L,,0000,0000,0000,,{\move(2080,1,-160,1)\q2\fs64}{\c&HD8EE54}无事发生！
+Comment: NO.1942:unknow type
+Dialogue: 0,0:41:34.15,0:41:46.15,R2L,,0000,0000,0000,,{\move(1984,1,-64,1)\q2\fs64}{\c&HDEC158}冲鸭
+Dialogue: 0,0:41:35.45,0:41:47.45,R2L,,0000,0000,0000,,{\move(2048,65,-128,65)\q2\fs64}{\c&HDEC158}啊？啊？
+Dialogue: 0,0:41:41.96,0:41:53.96,R2L,,0000,0000,0000,,{\move(2048,1,-128,1)\q2\fs64}{\c&HDEC158}咋了咋了
+Dialogue: 0,0:41:45.85,0:41:57.85,R2L,,0000,0000,0000,,{\move(2208,1,-288,1)\q2\fs64}{\c&HD8EE54}所以什么时候能登岛
+Dialogue: 0,0:41:52.36,0:42:04.36,R2L,,0000,0000,0000,,{\move(2016,1,-96,1)\q2\fs64}{\c&HDEC158}折返跑
+Comment: NO.1948:unknow type
+Dialogue: 0,0:42:00.15,0:42:12.15,R2L,,0000,0000,0000,,{\move(1984,1,-64,1)\q2\fs64}{\c&HDEC158}苏27
+Dialogue: 0,0:42:02.76,0:42:14.76,R2L,,0000,0000,0000,,{\move(2080,1,-160,1)\q2\fs64}{\c&HD8EE54}确实是这样
+Dialogue: 0,0:42:02.76,0:42:14.76,R2L,,0000,0000,0000,,{\move(2240,65,-320,65)\q2\fs64}{\c&HDEC158}就在今天！就在今天！
+Comment: NO.1952:unknow type
+Comment: NO.1953:unknow type
+Comment: NO.1954:unknow type
+Comment: NO.1955:unknow type
+Comment: NO.1956:unknow type
+Dialogue: 0,0:42:11.85,0:42:23.85,R2L,,0000,0000,0000,,{\move(1984,1,-64,1)\q2\fs64}{\c&HDEC158}省钱
+Dialogue: 0,0:42:17.06,0:42:29.06,R2L,,0000,0000,0000,,{\move(2144,1,-224,1)\q2\fs64}{\c&HDEC158}俗称：到处都是
+Dialogue: 0,0:42:24.85,0:42:36.85,R2L,,0000,0000,0000,,{\move(2176,1,-256,1)\q2\fs64}下令装载吧卡卡！
+Dialogue: 0,0:42:45.65,0:42:57.65,R2L,,0000,0000,0000,,{\move(2304,1,-384,1)\q2\fs64}{\c&HD8EE54}而且还是单！轴！单！桨！
+Dialogue: 0,0:42:49.55,0:43:01.55,R2L,,0000,0000,0000,,{\move(1984,1,-64,1)\q2\fs64}{\c&HDEC158}打卡
+Dialogue: 0,0:42:54.75,0:43:06.75,R2L,,0000,0000,0000,,{\move(2080,1,-160,1)\q2\fs64}{\c&HDEC158}这是锈了吗
+Comment: NO.1963:unknow type
+Dialogue: 0,0:43:01.26,0:43:13.26,R2L,,0000,0000,0000,,{\move(2000,1,-80,1)\q2\fs64}抢T字
+Comment: NO.1965:unknow type
+Comment: NO.1966:unknow type
+Dialogue: 0,0:43:12.96,0:43:24.96,R2L,,0000,0000,0000,,{\move(2208,1,-288,1)\q2\fs64}传说中的省钱驱逐舰
+Dialogue: 0,0:43:15.56,0:43:27.56,R2L,,0000,0000,0000,,{\move(2112,65,-192,65)\q2\fs64}{\c&H4FEDFF}应该还是威慑
+Comment: NO.1969:unknow type
+Dialogue: 0,0:43:16.87,0:43:28.87,R2L,,0000,0000,0000,,{\move(1952,1,-32,1)\q2\fs64}{\c&HD8EE54}赞
+Dialogue: 0,0:43:29.86,0:43:41.86,R2L,,0000,0000,0000,,{\move(2240,1,-320,1)\q2\fs64}{\c&HD8EE54}咩！！！！！！！！！
+Dialogue: 0,0:43:33.75,0:43:45.75,R2L,,0000,0000,0000,,{\move(2048,1,-128,1)\q2\fs64}{\c&H6868FF}海锋大队
+Dialogue: 0,0:43:35.07,0:43:47.07,R2L,,0000,0000,0000,,{\move(2112,65,-192,65)\q2\fs64}{\c&HDEC158}标完就涂满了
+Dialogue: 0,0:43:35.07,0:43:47.07,R2L,,0000,0000,0000,,{\move(2144,129,-224,129)\q2\fs64}{\c&HD8EE54}新竹一般兵口音
+Dialogue: 0,0:43:42.87,0:43:54.87,R2L,,0000,0000,0000,,{\move(2112,1,-192,1)\q2\fs64}{\c&HDEC158}下午一点发的
+Dialogue: 0,0:43:46.75,0:43:58.75,R2L,,0000,0000,0000,,{\move(2144,1,-224,1)\q2\fs64}{\c&HDEC158}海锋大队出动了
+Comment: NO.1977:unknow type
+Comment: NO.1978:unknow type
+Comment: NO.1979:unknow type
+Dialogue: 0,0:44:19.25,0:44:31.25,R2L,,0000,0000,0000,,{\move(2240,1,-320,1)\q2\fs64}雄2和雄3区别是什么？
+Dialogue: 0,0:44:37.45,0:44:49.45,R2L,,0000,0000,0000,,{\move(2016,1,-96,1)\q2\fs64}{\c&HDEC158}軍聞社
+Dialogue: 0,0:44:40.05,0:44:52.05,R2L,,0000,0000,0000,,{\move(2096,1,-176,1)\q2\fs64}{\c&HDEC158}雄2打过渔船
+Dialogue: 0,0:44:50.46,0:45:02.46,R2L,,0000,0000,0000,,{\move(2176,1,-256,1)\q2\fs64}{\c&HDEC158}ww是靠左行驶吗？
+Dialogue: 0,0:44:58.25,0:45:10.25,R2L,,0000,0000,0000,,{\move(2144,1,-224,1)\q2\fs64}{\c&HDEC158}伪装成民用车辆
+Comment: NO.1985:unknow type
+Dialogue: 0,0:45:21.65,0:45:33.65,R2L,,0000,0000,0000,,{\move(1952,1,-32,1)\q2\fs64}{\c&HDEC158}？
+Comment: NO.1987:unknow type
+Comment: NO.1988:unknow type
+Comment: NO.1989:unknow type
+Comment: NO.1990:unknow type
+Comment: NO.1991:unknow type
+Comment: NO.1992:unknow type
+Comment: NO.1993:unknow type
+Comment: NO.1994:unknow type
+Comment: NO.1995:unknow type
+Comment: NO.1996:unknow type
+Comment: NO.1997:unknow type
+Comment: NO.1998:unknow type
+Comment: NO.1999:unknow type
+Comment: NO.2000:unknow type
+Comment: NO.2001:unknow type
+Comment: NO.2002:unknow type
+Comment: NO.2003:unknow type
+Comment: NO.2004:unknow type
+Comment: NO.2005:unknow type
+Comment: NO.2006:unknow type
+Comment: NO.2007:unknow type
+Comment: NO.2008:unknow type
+Comment: NO.2009:unknow type
+Comment: NO.2010:unknow type
+Comment: NO.2011:unknow type
+Comment: NO.2012:unknow type
+Comment: NO.2013:unknow type
+Comment: NO.2014:unknow type
+Comment: NO.2015:unknow type
+Comment: NO.2016:unknow type
+Comment: NO.2017:unknow type
+Comment: NO.2018:unknow type
+Comment: NO.2019:unknow type
+Comment: NO.2020:unknow type
+Comment: NO.2021:unknow type
+Comment: NO.2022:unknow type
+Comment: NO.2023:unknow type
+Comment: NO.2024:unknow type
+Comment: NO.2025:unknow type
+Comment: NO.2026:unknow type
+Comment: NO.2027:unknow type
+Comment: NO.2028:unknow type
+Comment: NO.2029:unknow type
+Comment: NO.2030:unknow type
+Comment: NO.2031:unknow type
+Comment: NO.2032:unknow type
+Comment: NO.2033:unknow type
+Comment: NO.2034:unknow type
+Dialogue: 0,0:46:04.55,0:46:16.55,R2L,,0000,0000,0000,,{\move(2272,1,-352,1)\q2\fs64}今晚的茶话会还会有么？
+Comment: NO.2036:unknow type
+Comment: NO.2037:unknow type
+Comment: NO.2038:unknow type
+Comment: NO.2039:unknow type
+Comment: NO.2040:unknow type
+Comment: NO.2041:unknow type
+Comment: NO.2042:unknow type
+Comment: NO.2043:unknow type
+Comment: NO.2044:unknow type
+Comment: NO.2045:unknow type
+Comment: NO.2046:unknow type
+Comment: NO.2047:unknow type
+Comment: NO.2048:unknow type
+Comment: NO.2049:unknow type
+Comment: NO.2050:unknow type
+Comment: NO.2051:unknow type
+Comment: NO.2052:unknow type
+Comment: NO.2053:unknow type
+Comment: NO.2054:unknow type
+Comment: NO.2055:unknow type
+Comment: NO.2056:unknow type
+Comment: NO.2057:unknow type
+Comment: NO.2058:unknow type
+Comment: NO.2059:unknow type
+Comment: NO.2060:unknow type
+Comment: NO.2061:unknow type
+Comment: NO.2062:unknow type
+Comment: NO.2063:unknow type
+Comment: NO.2064:unknow type
+Comment: NO.2065:unknow type
+Comment: NO.2066:unknow type
+Comment: NO.2067:unknow type
+Comment: NO.2068:unknow type
+Comment: NO.2069:unknow type
+Comment: NO.2070:unknow type
+Comment: NO.2071:unknow type
+Comment: NO.2072:unknow type
+Comment: NO.2073:unknow type
+Comment: NO.2074:unknow type
+Comment: NO.2075:unknow type
+Comment: NO.2076:unknow type
+Comment: NO.2077:unknow type
+Comment: NO.2078:unknow type
+Comment: NO.2079:unknow type
+Comment: NO.2080:unknow type
+Comment: NO.2081:unknow type
+Comment: NO.2082:unknow type
+Comment: NO.2083:unknow type
+Comment: NO.2084:unknow type
+Comment: NO.2085:unknow type
+Comment: NO.2086:unknow type
+Comment: NO.2087:unknow type
+Comment: NO.2088:unknow type
+Comment: NO.2089:unknow type
+Comment: NO.2090:unknow type
+Dialogue: 0,0:46:39.65,0:46:51.65,R2L,,0000,0000,0000,,{\move(2080,1,-160,1)\q2\fs64}{\c&H4FEDFF}晚上照常播
+Dialogue: 0,0:46:40.95,0:46:52.95,R2L,,0000,0000,0000,,{\move(2112,65,-192,65)\q2\fs64}{\c&HDEC158}羊羔特工队有
+Comment: NO.2093:unknow type
+Comment: NO.2094:unknow type
+Comment: NO.2095:unknow type
+Comment: NO.2096:unknow type
+Comment: NO.2097:unknow type
+Comment: NO.2098:unknow type
+Comment: NO.2099:unknow type
+Comment: NO.2100:unknow type
+Comment: NO.2101:unknow type
+Comment: NO.2102:unknow type
+Comment: NO.2103:unknow type
+Comment: NO.2104:unknow type
+Comment: NO.2105:unknow type
+Comment: NO.2106:unknow type
+Comment: NO.2107:unknow type
+Comment: NO.2108:unknow type
+Comment: NO.2109:unknow type
+Comment: NO.2110:unknow type
+Comment: NO.2111:unknow type
+Comment: NO.2112:unknow type
+Comment: NO.2113:unknow type
+Comment: NO.2114:unknow type
+Dialogue: 0,0:47:35.55,0:47:47.55,R2L,,0000,0000,0000,,{\move(2048,1,-128,1)\q2\fs64}{\c&HDEC158}哈哈哈哈
+Dialogue: 0,0:47:40.76,0:47:52.76,R2L,,0000,0000,0000,,{\move(2080,1,-160,1)\q2\fs64}{\c&HDEC158}发现即摧毁
+Dialogue: 0,0:47:40.76,0:47:52.76,R2L,,0000,0000,0000,,{\move(2048,65,-128,65)\q2\fs64}{\c&HDEC158}大出殡！
+Comment: NO.2118:unknow type
+Dialogue: 0,0:47:47.26,0:47:59.26,R2L,,0000,0000,0000,,{\move(2112,1,-192,1)\q2\fs64}{\c&HDEC158}特车二科出动
+Dialogue: 0,0:47:53.76,0:48:05.76,R2L,,0000,0000,0000,,{\move(2176,1,-256,1)\q2\fs64}{\c&HDEC158}抄特车二科是吧？
+Comment: NO.2121:unknow type
+Dialogue: 0,0:47:58.96,0:48:10.96,R2L,,0000,0000,0000,,{\move(1984,1,-64,1)\q2\fs64}{\c&HDEC158}冲鸭
+Dialogue: 0,0:48:04.16,0:48:16.16,R2L,,0000,0000,0000,,{\move(2224,1,-304,1)\q2\fs64}军事实力差距有点大(
+Dialogue: 0,0:48:14.55,0:48:26.55,R2L,,0000,0000,0000,,{\move(2368,1,-448,1)\q2\fs64}{\c&HD8EE54}有没有这次跟上次的区域对比啊
+Dialogue: 0,0:48:26.27,0:48:38.27,R2L,,0000,0000,0000,,{\move(2048,1,-128,1)\q2\fs64}{\c&HDEC158}让我看看
+Dialogue: 0,0:48:28.85,0:48:40.85,R2L,,0000,0000,0000,,{\move(2048,1,-128,1)\q2\fs64}{\c&HDEC158}帧！察！
+Dialogue: 0,0:48:36.65,0:48:48.65,R2L,,0000,0000,0000,,{\move(2112,1,-192,1)\q2\fs64}{\c&H4FEDFF}刚才有区域图
+Dialogue: 0,0:48:48.36,0:49:00.36,R2L,,0000,0000,0000,,{\move(2240,1,-320,1)\q2\fs64}{\c&HDEC158}上次好像不是全围吧？
+Dialogue: 0,0:48:57.45,0:49:09.45,R2L,,0000,0000,0000,,{\move(1984,1,-64,1)\q2\fs64}{\c&HD8EE54}doge
+Dialogue: 0,0:49:05.25,0:49:17.25,R2L,,0000,0000,0000,,{\move(2112,1,-192,1)\q2\fs64}{\c&HDEC158}今天有突击呀
+Comment: NO.2131:unknow type
+Comment: NO.2132:unknow type
+Comment: NO.2133:unknow type
+Comment: NO.2134:unknow type
+Comment: NO.2135:unknow type
+Comment: NO.2136:unknow type
+Comment: NO.2137:unknow type
+Comment: NO.2138:unknow type
+Comment: NO.2139:unknow type
+Comment: NO.2140:unknow type
+Comment: NO.2141:unknow type
+Comment: NO.2142:unknow type
+Comment: NO.2143:unknow type
+Comment: NO.2144:unknow type
+Comment: NO.2145:unknow type
+Comment: NO.2146:unknow type
+Comment: NO.2147:unknow type
+Comment: NO.2148:unknow type
+Comment: NO.2149:unknow type
+Comment: NO.2150:unknow type
+Comment: NO.2151:unknow type
+Dialogue: 0,0:49:40.35,0:49:52.35,R2L,,0000,0000,0000,,{\move(2112,1,-192,1)\q2\fs64}{\c&HD8EE54}守株待兔是吧
+Dialogue: 0,0:49:44.25,0:49:56.25,R2L,,0000,0000,0000,,{\move(2176,1,-256,1)\q2\fs64}{\c&HDEC158}人家走了他喊狠话
+Dialogue: 0,0:49:48.16,0:50:00.16,R2L,,0000,0000,0000,,{\move(2112,1,-192,1)\q2\fs64}{\c&H4FEDFF}意思意思得了
+Dialogue: 0,0:50:02.53,0:50:14.53,R2L,,0000,0000,0000,,{\move(1952,1,-32,1)\q2\fs64}{\c&HDEC158}？
+Dialogue: 0,0:50:12.85,0:50:24.85,R2L,,0000,0000,0000,,{\move(2272,1,-352,1)\q2\fs64}{\c&HDEC158}巴不得他们敢真比划一下
+Dialogue: 0,0:50:25.85,0:50:37.85,R2L,,0000,0000,0000,,{\move(2048,1,-128,1)\q2\fs64}{\c&HD8EE54}琉球好评
+Comment: NO.2158:unknow type
+Comment: NO.2159:unknow type
+Dialogue: 0,0:51:04.85,0:51:16.85,R2L,,0000,0000,0000,,{\move(2032,1,-112,1)\q2\fs64}ABCDEFG
+Dialogue: 0,0:51:18.03,0:51:30.03,R2L,,0000,0000,0000,,{\move(1952,1,-32,1)\q2\fs64}gg
+Dialogue: 0,0:51:18.32,0:51:30.32,R2L,,0000,0000,0000,,{\move(1968,65,-48,65)\q2\fs64}{\c&HDEC158}古!
+Dialogue: 0,0:51:18.54,0:51:30.54,R2L,,0000,0000,0000,,{\move(2048,129,-128,129)\q2\fs64}{\c&HDEC158}讲！古！
+Dialogue: 0,0:51:34.75,0:51:46.75,R2L,,0000,0000,0000,,{\move(2112,1,-192,1)\q2\fs64}{\c&H6868FF}绍！怡！古！
+Dialogue: 0,0:51:39.95,0:51:51.95,R2L,,0000,0000,0000,,{\move(2240,1,-320,1)\q2\fs64}{\c&HDEC158}今天不讲古没法汤时间
+Dialogue: 0,0:51:41.25,0:51:53.25,R2L,,0000,0000,0000,,{\move(2048,65,-128,65)\q2\fs64}{\c&HD8EE54}施佬加班
+Comment: NO.2167:unknow type
+Dialogue: 0,0:51:47.75,0:51:59.75,R2L,,0000,0000,0000,,{\move(1984,1,-64,1)\q2\fs64}{\c&HD8EE54}古！
+Dialogue: 0,0:51:49.05,0:52:01.05,R2L,,0000,0000,0000,,{\move(2240,65,-320,65)\q2\fs64}{\c&HDEC158}任何时间！任何地点！
+Comment: NO.2170:unknow type
+Comment: NO.2171:unknow type
+Dialogue: 0,0:52:00.75,0:52:12.75,R2L,,0000,0000,0000,,{\move(2048,1,-128,1)\q2\fs64}{\c&HD8EE54}出来溜溜
+Comment: NO.2173:unknow type
+Dialogue: 0,0:52:16.37,0:52:28.37,R2L,,0000,0000,0000,,{\move(2144,1,-224,1)\q2\fs64}牙医shake\hit！
+Dialogue: 0,0:52:18.94,0:52:30.94,R2L,,0000,0000,0000,,{\move(2160,1,-240,1)\q2\fs64}[怂木猫舍_歪头]
+Dialogue: 0,0:52:28.05,0:52:40.05,R2L,,0000,0000,0000,,{\move(2016,1,-96,1)\q2\fs64}{\c&HDEC158}好好好
+Comment: NO.2177:unknow type
+Dialogue: 0,0:52:48.85,0:53:00.85,R2L,,0000,0000,0000,,{\move(2096,1,-176,1)\q2\fs64}你干嘛\h哎呦
+Comment: NO.2179:unknow type
+Dialogue: 0,0:52:56.66,0:53:08.66,R2L,,0000,0000,0000,,{\move(2016,1,-96,1)\q2\fs64}铁桶阵
+Comment: NO.2181:unknow type
+Comment: NO.2182:unknow type
+Comment: NO.2183:unknow type
+Comment: NO.2184:unknow type
+Comment: NO.2185:unknow type
+Comment: NO.2186:unknow type
+Comment: NO.2187:unknow type
+Comment: NO.2188:unknow type
+Comment: NO.2189:unknow type
+Comment: NO.2190:unknow type
+Comment: NO.2191:unknow type
+Comment: NO.2192:unknow type
+Comment: NO.2193:unknow type
+Dialogue: 0,0:53:10.95,0:53:22.95,R2L,,0000,0000,0000,,{\move(2144,1,-224,1)\q2\fs64}{\c&HD8EE54}真打了才会围住
+Comment: NO.2195:unknow type
+Comment: NO.2196:unknow type
+Comment: NO.2197:unknow type
+Comment: NO.2198:unknow type
+Comment: NO.2199:unknow type
+Comment: NO.2200:unknow type
+Comment: NO.2201:unknow type
+Comment: NO.2202:unknow type
+Comment: NO.2203:unknow type
+Comment: NO.2204:unknow type
+Comment: NO.2205:unknow type
+Comment: NO.2206:unknow type
+Comment: NO.2207:unknow type
+Comment: NO.2208:unknow type
+Dialogue: 0,0:53:29.14,0:53:41.14,R2L,,0000,0000,0000,,{\move(2048,1,-128,1)\q2\fs64}{\c&H4FEDFF}围三阙一
+Comment: NO.2210:unknow type
+Comment: NO.2211:unknow type
+Comment: NO.2212:unknow type
+Dialogue: 0,0:53:46.04,0:53:58.04,R2L,,0000,0000,0000,,{\move(2192,1,-272,1)\q2\fs64}飞机晚点6个小时了
+Dialogue: 0,0:53:47.43,0:53:59.43,R2L,,0000,0000,0000,,{\move(2016,65,-96,65)\q2\fs64}{\c&HD8EE54}这么早
+Comment: NO.2215:unknow type
+Comment: NO.2216:unknow type
+Comment: NO.2217:unknow type
+Comment: NO.2218:unknow type
+Comment: NO.2219:unknow type
+Comment: NO.2220:unknow type
+Comment: NO.2221:unknow type
+Comment: NO.2222:unknow type
+Comment: NO.2223:unknow type
+Comment: NO.2224:unknow type
+Comment: NO.2225:unknow type
+Comment: NO.2226:unknow type
+Comment: NO.2227:unknow type
+Comment: NO.2228:unknow type
+Comment: NO.2229:unknow type
+Comment: NO.2230:unknow type
+Comment: NO.2231:unknow type
+Comment: NO.2232:unknow type
+Dialogue: 0,0:54:17.25,0:54:29.25,R2L,,0000,0000,0000,,{\move(1984,1,-64,1)\q2\fs64}{\c&HDEC158}点了
+Comment: NO.2234:unknow type
+Comment: NO.2235:unknow type
+Comment: NO.2236:unknow type
+Comment: NO.2237:unknow type
+Comment: NO.2238:unknow type
+Comment: NO.2239:unknow type
+Comment: NO.2240:unknow type
+Comment: NO.2241:unknow type
+Comment: NO.2242:unknow type
+Comment: NO.2243:unknow type
+Comment: NO.2244:unknow type
+Comment: NO.2245:unknow type
+Dialogue: 0,0:54:25.05,0:54:37.05,R2L,,0000,0000,0000,,{\move(2240,1,-320,1)\q2\fs64}{\c&HDEC158}[UPOWER_10330740_咩]
+Comment: NO.2247:unknow type
+Dialogue: 0,0:54:27.65,0:54:39.65,R2L,,0000,0000,0000,,{\move(2176,65,-256,65)\q2\fs64}{\c&HD8EE54}剩下的时间不多咯
+Dialogue: 0,0:54:34.16,0:54:46.16,R2L,,0000,0000,0000,,{\move(2192,1,-272,1)\q2\fs64}{\c&HDEC158}[拜年纪2022_摸鱼]
+Dialogue: 0,0:54:36.75,0:54:48.75,R2L,,0000,0000,0000,,{\move(2208,65,-288,65)\q2\fs64}{\c&HD8EE54}回头先把长官抓起来
+Comment: NO.2251:unknow type
+Comment: NO.2252:unknow type
+Comment: NO.2253:unknow type
+Dialogue: 0,0:54:52.35,0:55:04.35,R2L,,0000,0000,0000,,{\move(2048,1,-128,1)\q2\fs64}上强度了
+Dialogue: 0,0:54:57.55,0:55:09.55,R2L,,0000,0000,0000,,{\move(2016,1,-96,1)\q2\fs64}{\c&HDEC158}机车诶
+Comment: NO.2256:unknow type
+Dialogue: 0,0:55:00.15,0:55:12.15,R2L,,0000,0000,0000,,{\move(2016,1,-96,1)\q2\fs64}{\c&HD8EE54}好好好
+Comment: NO.2258:unknow type
+Comment: NO.2259:unknow type
+Comment: NO.2260:unknow type
+Comment: NO.2261:unknow type
+Comment: NO.2262:unknow type
+Comment: NO.2263:unknow type
+Comment: NO.2264:unknow type
+Comment: NO.2265:unknow type
+Comment: NO.2266:unknow type
+Comment: NO.2267:unknow type
+Comment: NO.2268:unknow type
+Comment: NO.2269:unknow type
+Dialogue: 0,0:55:40.54,0:55:52.54,R2L,,0000,0000,0000,,{\move(2112,1,-192,1)\q2\fs64}合着是相互的
+Comment: NO.2271:unknow type
+Comment: NO.2272:unknow type
+Comment: NO.2273:unknow type
+Comment: NO.2274:unknow type
+Comment: NO.2275:unknow type
+Comment: NO.2276:unknow type
+Comment: NO.2277:unknow type
+Dialogue: 0,0:55:58.64,0:56:10.64,R2L,,0000,0000,0000,,{\move(1952,1,-32,1)\q2\fs64}{\c&HDEC158}？
+Dialogue: 0,0:56:14.25,0:56:26.25,R2L,,0000,0000,0000,,{\move(1984,1,-64,1)\q2\fs64}{\c&HD8EE54}犁地
+Dialogue: 0,0:56:16.85,0:56:28.85,R2L,,0000,0000,0000,,{\move(1984,1,-64,1)\q2\fs64}{\c&HDEC158}upup
+Dialogue: 0,0:56:27.27,0:56:39.27,R2L,,0000,0000,0000,,{\move(1952,1,-32,1)\q2\fs64}{\c&HD8EE54}？
+Comment: NO.2282:unknow type
+Comment: NO.2283:unknow type
+Comment: NO.2284:unknow type
+Comment: NO.2285:unknow type
+Comment: NO.2286:unknow type
+Comment: NO.2287:unknow type
+Comment: NO.2288:unknow type
+Comment: NO.2289:unknow type
+Comment: NO.2290:unknow type
+Dialogue: 0,0:56:32.45,0:56:44.45,R2L,,0000,0000,0000,,{\move(1984,1,-64,1)\q2\fs64}{\c&HDEC158}呵呵
+Dialogue: 0,0:56:42.84,0:56:54.84,R2L,,0000,0000,0000,,{\move(2176,1,-256,1)\q2\fs64}目标：观网办公室
+Dialogue: 0,0:56:49.35,0:57:01.35,R2L,,0000,0000,0000,,{\move(2560,1,-640,1)\q2\fs64}{\c&HDEC158}？！啥时候开始的？？？今晚羊羔特工队提前
+Dialogue: 0,0:56:49.35,0:57:01.35,R2L,,0000,0000,0000,,{\move(2176,65,-256,65)\q2\fs64}{\c&HD8EE54}你能打我打不到？
+Dialogue: 0,0:56:54.55,0:57:06.55,R2L,,0000,0000,0000,,{\move(1952,1,-32,1)\q2\fs64}{\c&HDEC158}啊
+Dialogue: 0,0:56:59.77,0:57:11.77,R2L,,0000,0000,0000,,{\move(2048,1,-128,1)\q2\fs64}{\c&H4FEDFF}晚上还有
+Dialogue: 0,0:56:59.77,0:57:11.77,R2L,,0000,0000,0000,,{\move(2048,65,-128,65)\q2\fs64}晚上照旧
+Comment: NO.2298:unknow type
+Dialogue: 0,0:57:06.27,0:57:18.27,R2L,,0000,0000,0000,,{\move(1984,1,-64,1)\q2\fs64}{\c&HDEC158}打卡
+Dialogue: 0,0:57:10.15,0:57:22.15,R2L,,0000,0000,0000,,{\move(2096,1,-176,1)\q2\fs64}{\c&HDEC158}(°∀°)ﾉ.
+Dialogue: 0,0:57:10.15,0:57:22.15,R2L,,0000,0000,0000,,{\move(1984,65,-64,65)\q2\fs64}{\c&HDEC158}打卡
+Comment: NO.2302:unknow type
+Comment: NO.2303:unknow type
+Comment: NO.2304:unknow type
+Comment: NO.2305:unknow type
+Comment: NO.2306:unknow type
+Comment: NO.2307:unknow type
+Comment: NO.2308:unknow type
+Comment: NO.2309:unknow type
+Dialogue: 0,0:57:17.96,0:57:29.96,R2L,,0000,0000,0000,,{\move(2368,1,-448,1)\q2\fs64}今天是不是没时间录察话会了？
+Comment: NO.2311:unknow type
+Comment: NO.2312:unknow type
+Comment: NO.2313:unknow type
+Comment: NO.2314:unknow type
+Dialogue: 0,0:57:19.26,0:57:31.26,R2L,,0000,0000,0000,,{\move(2016,65,-96,65)\q2\fs64}{\c&HDEC158}取帽子
+Comment: NO.2316:unknow type
+Comment: NO.2317:unknow type
+Comment: NO.2318:unknow type
+Comment: NO.2319:unknow type
+Comment: NO.2320:unknow type
+Comment: NO.2321:unknow type
+Comment: NO.2322:unknow type
+Comment: NO.2323:unknow type
+Dialogue: 0,0:57:23.14,0:57:35.14,R2L,,0000,0000,0000,,{\move(2112,1,-192,1)\q2\fs64}{\c&HDEC158}特别加播行动
+Dialogue: 0,0:57:36.15,0:57:48.15,R2L,,0000,0000,0000,,{\move(2048,1,-128,1)\q2\fs64}{\c&HDEC158}哈？？？
+Dialogue: 0,0:57:36.15,0:57:48.15,R2L,,0000,0000,0000,,{\move(2112,65,-192,65)\q2\fs64}{\c&HDEC158}不要回答是吧
+Comment: NO.2327:unknow type
+Comment: NO.2328:unknow type
+Dialogue: 0,0:57:42.64,0:57:54.64,R2L,,0000,0000,0000,,{\move(2112,1,-192,1)\q2\fs64}{\c&HD8EE54}什么都市传说
+Dialogue: 0,0:57:43.95,0:57:55.95,R2L,,0000,0000,0000,,{\move(2288,65,-368,65)\q2\fs64}{\c&HDEC158}[摸鱼新春会表情包_河里]
+Dialogue: 0,0:57:46.63,0:57:58.63,R2L,,0000,0000,0000,,{\move(1952,1,-32,1)\q2\fs64}{\c&HDEC158}？
+Dialogue: 0,0:57:49.15,0:58:01.15,R2L,,0000,0000,0000,,{\move(2048,1,-128,1)\q2\fs64}{\c&HD8EE54}奇妙比喻
+Comment: NO.2333:unknow type
+Dialogue: 0,0:57:49.15,0:58:01.15,R2L,,0000,0000,0000,,{\move(1984,65,-64,65)\q2\fs64}{\c&H4FEDFF}难绷
+Dialogue: 0,0:57:49.15,0:58:01.15,R2L,,0000,0000,0000,,{\move(2080,129,-160,129)\q2\fs64}{\c&HDEC158}这什么怪谈
+Comment: NO.2336:unknow type
+Comment: NO.2337:unknow type
+Comment: NO.2338:unknow type
+Comment: NO.2339:unknow type
+Comment: NO.2340:unknow type
+Comment: NO.2341:unknow type
+Comment: NO.2342:unknow type
+Comment: NO.2343:unknow type
+Comment: NO.2344:unknow type
+Dialogue: 0,0:58:00.84,0:58:12.84,R2L,,0000,0000,0000,,{\move(2016,1,-96,1)\q2\fs64}{\c&HDEC158}啥意思
+Dialogue: 0,0:58:09.22,0:58:21.22,R2L,,0000,0000,0000,,{\move(2176,1,-256,1)\q2\fs64}无头连还是排来着
+Dialogue: 0,0:58:19.04,0:58:31.04,R2L,,0000,0000,0000,,{\move(2112,1,-192,1)\q2\fs64}{\c&HDEC158}什么都市怪谈
+Comment: NO.2348:unknow type
+Comment: NO.2349:unknow type
+Comment: NO.2350:unknow type
+Comment: NO.2351:unknow type
+Comment: NO.2352:unknow type
+Comment: NO.2353:unknow type
+Comment: NO.2354:unknow type
+Comment: NO.2355:unknow type
+Comment: NO.2356:unknow type
+Comment: NO.2357:unknow type
+Comment: NO.2358:unknow type
+Comment: NO.2359:unknow type
+Comment: NO.2360:unknow type
+Comment: NO.2361:unknow type
+Comment: NO.2362:unknow type
+Comment: NO.2363:unknow type
+Comment: NO.2364:unknow type
+Comment: NO.2365:unknow type
+Comment: NO.2366:unknow type
+Comment: NO.2367:unknow type
+Comment: NO.2368:unknow type
+Comment: NO.2369:unknow type
+Comment: NO.2370:unknow type
+Comment: NO.2371:unknow type
+Comment: NO.2372:unknow type
+Comment: NO.2373:unknow type
+Comment: NO.2374:unknow type
+Comment: NO.2375:unknow type
+Comment: NO.2376:unknow type
+Comment: NO.2377:unknow type
+Comment: NO.2378:unknow type
+Dialogue: 0,0:58:37.25,0:58:49.25,R2L,,0000,0000,0000,,{\move(1952,1,-32,1)\q2\fs64}{\c&HDEC158}咩
+Comment: NO.2380:unknow type
+Comment: NO.2381:unknow type
+Comment: NO.2382:unknow type
+Comment: NO.2383:unknow type
+Comment: NO.2384:unknow type
+Comment: NO.2385:unknow type
+Comment: NO.2386:unknow type
+Comment: NO.2387:unknow type
+Comment: NO.2388:unknow type
+Comment: NO.2389:unknow type
+Comment: NO.2390:unknow type
+Comment: NO.2391:unknow type
+Comment: NO.2392:unknow type
+Comment: NO.2393:unknow type
+Comment: NO.2394:unknow type
+Comment: NO.2395:unknow type
+Comment: NO.2396:unknow type
+Comment: NO.2397:unknow type
+Comment: NO.2398:unknow type
+Comment: NO.2399:unknow type
+Comment: NO.2400:unknow type
+Comment: NO.2401:unknow type
+Comment: NO.2402:unknow type
+Comment: NO.2403:unknow type
+Comment: NO.2404:unknow type
+Comment: NO.2405:unknow type
+Comment: NO.2406:unknow type
+Comment: NO.2407:unknow type
+Comment: NO.2408:unknow type
+Comment: NO.2409:unknow type
+Comment: NO.2410:unknow type
+Comment: NO.2411:unknow type
+Comment: NO.2412:unknow type
+Comment: NO.2413:unknow type
+Comment: NO.2414:unknow type
+Comment: NO.2415:unknow type
+Comment: NO.2416:unknow type
+Comment: NO.2417:unknow type
+Comment: NO.2418:unknow type
+Comment: NO.2419:unknow type
+Dialogue: 0,0:58:58.04,0:59:10.04,R2L,,0000,0000,0000,,{\move(2016,1,-96,1)\q2\fs64}{\c&HDEC158}看开了
+Dialogue: 0,0:59:01.96,0:59:13.96,R2L,,0000,0000,0000,,{\move(2208,1,-288,1)\q2\fs64}这个封面太像雪糕了
+Comment: NO.2422:unknow type
+Comment: NO.2423:unknow type
+Dialogue: 0,0:59:17.54,0:59:29.54,R2L,,0000,0000,0000,,{\move(2016,1,-96,1)\q2\fs64}{\c&HDEC158}忠诚！
+Dialogue: 0,0:59:24.06,0:59:36.06,R2L,,0000,0000,0000,,{\move(1984,1,-64,1)\q2\fs64}卡卡
+Dialogue: 0,0:59:30.54,0:59:42.54,R2L,,0000,0000,0000,,{\move(2016,1,-96,1)\q2\fs64}gaka！
+Dialogue: 0,0:59:33.15,0:59:45.15,R2L,,0000,0000,0000,,{\move(1952,1,-32,1)\q2\fs64}{\c&HDEC158}赞
+Dialogue: 0,0:59:34.45,0:59:46.45,R2L,,0000,0000,0000,,{\move(2144,65,-224,65)\q2\fs64}健保卡给你剪了
+Dialogue: 0,0:59:37.05,0:59:49.05,R2L,,0000,0000,0000,,{\move(2048,1,-128,1)\q2\fs64}{\c&HDEC158}西冰库！
+Dialogue: 0,0:59:37.05,0:59:49.05,R2L,,0000,0000,0000,,{\move(2000,65,-80,65)\q2\fs64}忠诚!
+Dialogue: 0,0:59:39.66,0:59:51.66,R2L,,0000,0000,0000,,{\move(2016,1,-96,1)\q2\fs64}{\c&H4FEDFF}忠!诚!
+Dialogue: 0,0:59:50.05,1:00:02.05,R2L,,0000,0000,0000,,{\move(1984,1,-64,1)\q2\fs64}打卡
+Dialogue: 0,0:59:56.54,1:00:08.54,R2L,,0000,0000,0000,,{\move(2112,1,-192,1)\q2\fs64}cong！ceng！
+Comment: NO.2434:unknow type
+Comment: NO.2435:unknow type
+Comment: NO.2436:unknow type
+Comment: NO.2437:unknow type
+Comment: NO.2438:unknow type
+Comment: NO.2439:unknow type
+Comment: NO.2440:unknow type
+Comment: NO.2441:unknow type
+Comment: NO.2442:unknow type
+Comment: NO.2443:unknow type
+Dialogue: 0,1:00:04.36,1:00:16.36,R2L,,0000,0000,0000,,{\move(2144,1,-224,1)\q2\fs64}{\c&HDEC158}观望的老传统了
+Comment: NO.2445:unknow type
+Comment: NO.2446:unknow type
+Comment: NO.2447:unknow type
+Comment: NO.2448:unknow type
+Comment: NO.2449:unknow type
+Comment: NO.2450:unknow type
+Comment: NO.2451:unknow type
+Comment: NO.2452:unknow type
+Comment: NO.2453:unknow type
+Comment: NO.2454:unknow type
+Comment: NO.2455:unknow type
+Comment: NO.2456:unknow type
+Comment: NO.2457:unknow type
+Comment: NO.2458:unknow type
+Comment: NO.2459:unknow type
+Comment: NO.2460:unknow type
+Comment: NO.2461:unknow type
+Comment: NO.2462:unknow type
+Comment: NO.2463:unknow type
+Comment: NO.2464:unknow type
+Comment: NO.2465:unknow type
+Comment: NO.2466:unknow type
+Comment: NO.2467:unknow type
+Comment: NO.2468:unknow type
+Comment: NO.2469:unknow type
+Comment: NO.2470:unknow type
+Comment: NO.2471:unknow type
+Comment: NO.2472:unknow type
+Comment: NO.2473:unknow type
+Comment: NO.2474:unknow type
+Comment: NO.2475:unknow type
+Comment: NO.2476:unknow type
+Comment: NO.2477:unknow type
+Comment: NO.2478:unknow type
+Comment: NO.2479:unknow type
+Comment: NO.2480:unknow type
+Comment: NO.2481:unknow type
+Comment: NO.2482:unknow type
+Comment: NO.2483:unknow type
+Comment: NO.2484:unknow type
+Comment: NO.2485:unknow type
+Comment: NO.2486:unknow type
+Comment: NO.2487:unknow type
+Comment: NO.2488:unknow type
+Comment: NO.2489:unknow type
+Comment: NO.2490:unknow type
+Comment: NO.2491:unknow type
+Dialogue: 0,1:00:27.74,1:00:39.74,R2L,,0000,0000,0000,,{\move(2272,1,-352,1)\q2\fs64}健保卡剪了哈哈哈哈哈哈
+Comment: NO.2493:unknow type
+Comment: NO.2494:unknow type
+Comment: NO.2495:unknow type
+Dialogue: 0,1:00:55.06,1:01:07.06,R2L,,0000,0000,0000,,{\move(1984,1,-64,1)\q2\fs64}{\c&HDEC158}冲鸭
+Dialogue: 0,1:01:05.54,1:01:17.54,R2L,,0000,0000,0000,,{\move(2096,1,-176,1)\q2\fs64}{\c&HDEC158}[鹿鸣_可怜]
+Comment: NO.2498:unknow type
+Comment: NO.2499:unknow type
+Comment: NO.2500:unknow type
+Comment: NO.2501:unknow type
+Comment: NO.2502:unknow type
+Comment: NO.2503:unknow type
+Comment: NO.2504:unknow type
+Comment: NO.2505:unknow type
+Comment: NO.2506:unknow type
+Comment: NO.2507:unknow type
+Comment: NO.2508:unknow type
+Comment: NO.2509:unknow type
+Comment: NO.2510:unknow type
+Comment: NO.2511:unknow type
+Comment: NO.2512:unknow type
+Comment: NO.2513:unknow type
+Dialogue: 0,1:01:17.16,1:01:29.16,R2L,,0000,0000,0000,,{\move(2016,1,-96,1)\q2\fs64}飞鸽呢
+Comment: NO.2515:unknow type
+Comment: NO.2516:unknow type
+Comment: NO.2517:unknow type
+Comment: NO.2518:unknow type
+Comment: NO.2519:unknow type
+Comment: NO.2520:unknow type
+Dialogue: 0,1:01:26.25,1:01:38.25,R2L,,0000,0000,0000,,{\move(2112,1,-192,1)\q2\fs64}{\c&HDEC158}千纸鹤点名了
+Comment: NO.2522:unknow type
+Comment: NO.2523:unknow type
+Comment: NO.2524:unknow type
+Comment: NO.2525:unknow type
+Dialogue: 0,1:01:34.05,1:01:46.05,R2L,,0000,0000,0000,,{\move(2112,1,-192,1)\q2\fs64}{\c&HDEC158}千纸鹤是真的
+Comment: NO.2527:unknow type
+Comment: NO.2528:unknow type
+Dialogue: 0,1:01:37.96,1:01:49.96,R2L,,0000,0000,0000,,{\move(2272,1,-352,1)\q2\fs64}{\c&HD8EE54}形势和人心都站着我这里
+Dialogue: 0,1:01:47.06,1:01:59.06,R2L,,0000,0000,0000,,{\move(2080,1,-160,1)\q2\fs64}埃尔丹是吧
+Dialogue: 0,1:01:52.24,1:02:04.24,R2L,,0000,0000,0000,,{\move(2112,1,-192,1)\q2\fs64}{\c&HD8EE54}千纸鹤（ji）
+Comment: NO.2532:unknow type
+Comment: NO.2533:unknow type
+Dialogue: 0,1:02:07.85,1:02:19.85,R2L,,0000,0000,0000,,{\move(2048,1,-128,1)\q2\fs64}{\c&HD8EE54}弟中之弟
+Comment: NO.2535:unknow type
+Dialogue: 0,1:02:45.56,1:02:57.56,R2L,,0000,0000,0000,,{\move(1984,1,-64,1)\q2\fs64}{\c&HDEC158}哦吼
+Comment: NO.2537:unknow type
+Dialogue: 0,1:02:55.95,1:03:07.95,R2L,,0000,0000,0000,,{\move(1968,1,-48,1)\q2\fs64}{\c&HD8EE54}0.0
+Dialogue: 0,1:02:57.24,1:03:09.24,R2L,,0000,0000,0000,,{\move(2048,65,-128,65)\q2\fs64}{\c&HDEC158}怡咋没来
+Comment: NO.2540:unknow type
+Dialogue: 0,1:03:41.45,1:03:53.45,R2L,,0000,0000,0000,,{\move(2016,1,-96,1)\q2\fs64}内智？
+Dialogue: 0,1:04:03.56,1:04:15.56,R2L,,0000,0000,0000,,{\move(2016,1,-96,1)\q2\fs64}混合智
+Comment: NO.2543:unknow type
+Dialogue: 0,1:04:30.86,1:04:42.86,R2L,,0000,0000,0000,,{\move(1984,1,-64,1)\q2\fs64}{\c&HDEC158}外智
+Dialogue: 0,1:04:36.06,1:04:48.06,R2L,,0000,0000,0000,,{\move(2080,1,-160,1)\q2\fs64}{\c&HDEC158}好！赶紧造
+Comment: NO.2546:unknow type
+Comment: NO.2547:unknow type
+Dialogue: 0,1:05:08.57,1:05:20.57,R2L,,0000,0000,0000,,{\move(2016,1,-96,1)\q2\fs64}痔得割
+Comment: NO.2549:unknow type
+Dialogue: 0,1:05:31.95,1:05:43.95,R2L,,0000,0000,0000,,{\move(2112,1,-192,1)\q2\fs64}{\c&HDEC158}智得上马应龙
+Dialogue: 0,1:05:34.56,1:05:46.56,R2L,,0000,0000,0000,,{\move(2080,1,-160,1)\q2\fs64}{\c&HDEC158}复刻诺曼底
+Comment: NO.2552:unknow type
+Dialogue: 0,1:05:37.14,1:05:49.14,R2L,,0000,0000,0000,,{\move(2112,1,-192,1)\q2\fs64}{\c&H6868FF}如奥斯丁故事
+Comment: NO.2554:unknow type
+Dialogue: 0,1:05:38.47,1:05:50.47,R2L,,0000,0000,0000,,{\move(2048,65,-128,65)\q2\fs64}{\c&HDEC158}香蕉芭乐
+Dialogue: 0,1:05:42.34,1:05:54.34,R2L,,0000,0000,0000,,{\move(2208,1,-288,1)\q2\fs64}{\c&HDEC158}他们都在忙着干架呢
+Dialogue: 0,1:05:44.95,1:05:56.95,R2L,,0000,0000,0000,,{\move(2144,65,-224,65)\q2\fs64}{\c&HDEC158}芭拉吃了拉粑粑
+Dialogue: 0,1:06:07.05,1:06:19.05,R2L,,0000,0000,0000,,{\move(2272,1,-352,1)\q2\fs64}{\c&HD8EE54}一脸紧张的看着地图是吧
+Dialogue: 0,1:06:09.64,1:06:21.64,R2L,,0000,0000,0000,,{\move(2048,65,-128,65)\q2\fs64}{\c&HDEC158}如临痔疮
+Dialogue: 0,1:06:14.85,1:06:26.85,R2L,,0000,0000,0000,,{\move(2080,1,-160,1)\q2\fs64}穿一身龟壳
+Dialogue: 0,1:06:16.14,1:06:28.14,R2L,,0000,0000,0000,,{\move(2048,65,-128,65)\q2\fs64}有画面了
+Dialogue: 0,1:06:18.75,1:06:30.75,R2L,,0000,0000,0000,,{\move(2112,1,-192,1)\q2\fs64}{\c&HDEC158}癞今天去看某
+Dialogue: 0,1:06:20.06,1:06:32.06,R2L,,0000,0000,0000,,{\move(2048,65,-128,65)\q2\fs64}{\c&HDEC158}行政马甲
+Dialogue: 0,1:06:23.94,1:06:35.94,R2L,,0000,0000,0000,,{\move(1936,1,-16,1)\q2\fs64}{\c&HDEC158}A
+Dialogue: 0,1:06:25.25,1:06:37.25,R2L,,0000,0000,0000,,{\move(2272,65,-352,65)\q2\fs64}今晚的茶话会还会有么？
+Dialogue: 0,1:06:25.25,1:06:37.25,R2L,,0000,0000,0000,,{\move(1984,1,-64,1)\q2\fs64}拜拜
+Dialogue: 0,1:06:26.55,1:06:38.55,R2L,,0000,0000,0000,,{\move(2144,129,-224,129)\q2\fs64}{\c&HDEC158}茶话会还有吗？
+Dialogue: 0,1:06:26.55,1:06:38.55,R2L,,0000,0000,0000,,{\move(1984,1,-64,1)\q2\fs64}{\c&HD8EE54}8888
+Dialogue: 0,1:06:27.85,1:06:39.85,R2L,,0000,0000,0000,,{\move(2048,193,-128,193)\q2\fs64}{\c&HDEC158}才两点！
+Dialogue: 0,1:06:27.85,1:06:39.85,R2L,,0000,0000,0000,,{\move(2016,1,-96,1)\q2\fs64}辛苦了
+Dialogue: 0,1:06:27.85,1:06:39.85,R2L,,0000,0000,0000,,{\move(2048,257,-128,257)\q2\fs64}{\c&HDEC158}辛苦辛苦
+Dialogue: 0,1:06:29.15,1:06:41.15,R2L,,0000,0000,0000,,{\move(2112,65,-192,65)\q2\fs64}{\c&HD8EE54}再聊一会儿吧
+Dialogue: 0,1:06:29.15,1:06:41.15,R2L,,0000,0000,0000,,{\move(1984,1,-64,1)\q2\fs64}{\c&HD8EE54}upup
+Dialogue: 0,1:06:29.15,1:06:41.15,R2L,,0000,0000,0000,,{\move(2400,321,-480,321)\q2\fs64}{\c&HDEC158}衡指所一启动都给民用电干停电了
+Dialogue: 0,1:06:29.15,1:06:41.15,R2L,,0000,0000,0000,,{\move(2048,129,-128,129)\q2\fs64}{\c&HDEC158}才四点！
+Dialogue: 0,1:06:30.45,1:06:42.45,R2L,,0000,0000,0000,,{\move(2336,385,-416,385)\q2\fs64}{\c&HDEC158}如鲠在喉\h如芒在背\h如坐针毡
+Dialogue: 0,1:06:30.45,1:06:42.45,R2L,,0000,0000,0000,,{\move(2016,1,-96,1)\q2\fs64}{\c&H6868FF}才四点
+Dialogue: 0,1:06:30.45,1:06:42.45,R2L,,0000,0000,0000,,{\move(2048,193,-128,193)\q2\fs64}{\c&HDEC158}等着晚上
+Dialogue: 0,1:06:31.74,1:06:43.74,R2L,,0000,0000,0000,,{\move(2112,65,-192,65)\q2\fs64}{\c&HDEC158}晚上啥话题啊
+Dialogue: 0,1:06:33.05,1:06:45.05,R2L,,0000,0000,0000,,{\move(1968,1,-48,1)\q2\fs64}{\c&HDEC158}886
+Dialogue: 0,1:06:33.06,1:06:45.06,R2L,,0000,0000,0000,,{\move(1984,129,-64,129)\q2\fs64}{\c&HDEC158}好叻
+Dialogue: 0,1:06:34.35,1:06:46.35,R2L,,0000,0000,0000,,{\move(1952,1,-32,1)\q2\fs64}{\c&HD8EE54}啊
+Dialogue: 0,1:06:35.64,1:06:47.64,R2L,,0000,0000,0000,,{\move(2000,1,-80,1)\q2\fs64}{\c&HDEC158}才3点
+Dialogue: 0,1:06:39.56,1:06:51.56,R2L,,0000,0000,0000,,{\move(2048,1,-128,1)\q2\fs64}才三点！
+Dialogue: 0,1:06:40.86,1:06:52.86,R2L,,0000,0000,0000,,{\move(2048,65,-128,65)\q2\fs64}{\c&HDEC158}才三点！
+Dialogue: 0,1:06:42.14,1:06:54.14,R2L,,0000,0000,0000,,{\move(1952,1,-32,1)\q2\fs64}{\c&HDEC158}马
+Dialogue: 0,1:06:43.45,1:06:55.45,R2L,,0000,0000,0000,,{\move(2240,129,-320,129)\q2\fs64}这个有观察员的回放么
+Comment: NO.2588:unknow type
+Dialogue: 0,1:06:46.05,1:06:58.05,R2L,,0000,0000,0000,,{\move(1952,1,-32,1)\q2\fs64}{\c&HDEC158}咩
+Comment: NO.2590:unknow type
+Comment: NO.2591:unknow type
+Dialogue: 0,1:06:47.35,1:06:59.35,R2L,,0000,0000,0000,,{\move(2432,65,-512,65)\q2\fs64}{\c&H4FEDFF}晚上等看就行了\h话题\h先看新闻联播
+Comment: NO.2593:unknow type
+Dialogue: 0,1:06:51.25,1:07:03.25,R2L,,0000,0000,0000,,{\move(2016,1,-96,1)\q2\fs64}{\c&HDEC158}好家伙
+Comment: NO.2595:unknow type
+Dialogue: 0,1:06:52.56,1:07:04.56,R2L,,0000,0000,0000,,{\move(2016,1,-96,1)\q2\fs64}{\c&HDEC158}辛苦了
+Dialogue: 0,1:06:56.45,1:07:08.45,R2L,,0000,0000,0000,,{\move(2080,1,-160,1)\q2\fs64}{\c&HDEC158}晚上讲啥啊
+Dialogue: 0,1:06:56.45,1:07:08.45,R2L,,0000,0000,0000,,{\move(2176,65,-256,65)\q2\fs64}今晚的主题是什么
+Dialogue: 0,1:06:59.05,1:07:11.05,R2L,,0000,0000,0000,,{\move(2144,1,-224,1)\q2\fs64}{\c&HDEC158}茶话会还有吗？
+Dialogue: 0,1:07:01.64,1:07:13.64,R2L,,0000,0000,0000,,{\move(2048,1,-128,1)\q2\fs64}{\c&H4FEDFF}再探再报
+Dialogue: 0,1:07:04.24,1:07:16.24,R2L,,0000,0000,0000,,{\move(1952,1,-32,1)\q2\fs64}{\c&HDEC158}咩
+Dialogue: 0,1:07:05.55,1:07:17.55,R2L,,0000,0000,0000,,{\move(2144,65,-224,65)\q2\fs64}{\c&HDEC158}等新闻联播之后
+Dialogue: 0,1:07:06.84,1:07:18.84,R2L,,0000,0000,0000,,{\move(2208,129,-288,129)\q2\fs64}{\c&HDEC158}晚上还有羊羔特工队
+Dialogue: 0,1:07:10.76,1:07:22.76,R2L,,0000,0000,0000,,{\move(2048,1,-128,1)\q2\fs64}{\c&HDEC158}欧皇驾到
+Dialogue: 0,1:07:10.76,1:07:22.76,R2L,,0000,0000,0000,,{\move(2112,65,-192,65)\q2\fs64}哈哈哈哈哈哈
+Dialogue: 0,1:07:13.37,1:07:25.37,R2L,,0000,0000,0000,,{\move(2432,129,-512,129)\q2\fs64}{\c&HDEC158}具体什么情况还得到时候看具体情况
+Comment: NO.2607:unknow type
+Dialogue: 0,1:07:14.65,1:07:26.65,R2L,,0000,0000,0000,,{\move(1984,1,-64,1)\q2\fs64}{\c&HDEC158}好的
+Dialogue: 0,1:07:14.65,1:07:26.65,R2L,,0000,0000,0000,,{\move(1984,65,-64,65)\q2\fs64}好！
+Dialogue: 0,1:07:18.55,1:07:30.55,R2L,,0000,0000,0000,,{\move(2016,1,-96,1)\q2\fs64}{\c&HDEC158}小号！
+Dialogue: 0,1:07:22.44,1:07:34.44,R2L,,0000,0000,0000,,{\move(2112,1,-192,1)\q2\fs64}{\c&HDEC158}茶话会还有吗
+Dialogue: 0,1:07:22.44,1:07:34.44,R2L,,0000,0000,0000,,{\move(2000,65,-80,65)\q2\fs64}{\c&HDEC158}好~！
+Dialogue: 0,1:07:23.76,1:07:35.76,R2L,,0000,0000,0000,,{\move(2016,65,-96,65)\q2\fs64}辛苦啦
+Comment: NO.2614:unknow type
+Dialogue: 0,1:07:28.95,1:07:40.95,R2L,,0000,0000,0000,,{\move(2240,1,-320,1)\q2\fs64}{\c&HD8EE54}现在这个哪里能看回看
+Dialogue: 0,1:07:30.24,1:07:42.24,R2L,,0000,0000,0000,,{\move(1984,65,-64,65)\q2\fs64}{\c&HDEC158}upup
+Dialogue: 0,1:07:34.14,1:07:46.14,R2L,,0000,0000,0000,,{\move(1984,1,-64,1)\q2\fs64}{\c&HDEC158}好耶
+Dialogue: 0,1:07:35.46,1:07:47.46,R2L,,0000,0000,0000,,{\move(1984,1,-64,1)\q2\fs64}{\c&HDEC158}打卡
+Comment: NO.2619:unknow type
+Dialogue: 0,1:07:40.65,1:07:52.65,R2L,,0000,0000,0000,,{\move(2320,1,-400,1)\q2\fs64}{\c&HDEC158}回放在B站看还是观察员看？
+Dialogue: 0,1:07:40.65,1:07:52.65,R2L,,0000,0000,0000,,{\move(2048,65,-128,65)\q2\fs64}{\c&HDEC158}对！抗！
+Dialogue: 0,1:07:43.25,1:07:55.25,R2L,,0000,0000,0000,,{\move(1984,65,-64,65)\q2\fs64}{\c&HFCFF00}hhhh
+Dialogue: 0,1:07:44.55,1:07:56.55,R2L,,0000,0000,0000,,{\move(1952,1,-32,1)\q2\fs64}鸽
+Comment: NO.2624:unknow type
+Dialogue: 0,1:07:47.14,1:07:59.14,R2L,,0000,0000,0000,,{\move(1952,1,-32,1)\q2\fs64}{\c&HDEC158}咩
+Dialogue: 0,1:07:48.45,1:08:00.45,R2L,,0000,0000,0000,,{\move(2096,65,-176,65)\q2\fs64}23333333333
+Dialogue: 0,1:07:51.07,1:08:03.07,R2L,,0000,0000,0000,,{\move(2144,1,-224,1)\q2\fs64}{\c&HDEC158}万里惊涛把路开
+Dialogue: 0,1:07:52.36,1:08:04.36,R2L,,0000,0000,0000,,{\move(2176,65,-256,65)\q2\fs64}{\c&HD8EE54}甲！弹！对！抗！
+Dialogue: 0,1:07:54.96,1:08:06.96,R2L,,0000,0000,0000,,{\move(2080,1,-160,1)\q2\fs64}{\c&HDEC158}打穿防住！
+Comment: NO.2630:unknow type
+Dialogue: 0,1:07:54.96,1:08:06.96,R2L,,0000,0000,0000,,{\move(2016,65,-96,65)\q2\fs64}{\c&HDEC158}观察员
+Dialogue: 0,1:07:54.96,1:08:06.96,R2L,,0000,0000,0000,,{\move(2240,129,-320,129)\q2\fs64}{\c&HDEC158}不是说是付费节目吗？
+Dialogue: 0,1:07:57.55,1:08:09.55,R2L,,0000,0000,0000,,{\move(1952,1,-32,1)\q2\fs64}{\c&HDEC158}好
+Dialogue: 0,1:07:57.55,1:08:09.55,R2L,,0000,0000,0000,,{\move(1984,65,-64,65)\q2\fs64}{\c&HDEC158}辛苦
+Dialogue: 0,1:07:58.84,1:08:10.84,R2L,,0000,0000,0000,,{\move(1984,1,-64,1)\q2\fs64}{\c&HDEC158}碗！
+Dialogue: 0,1:08:00.15,1:08:12.15,R2L,,0000,0000,0000,,{\move(2112,65,-192,65)\q2\fs64}{\c&HDEC158}将军突然勤快
+Dialogue: 0,1:08:00.15,1:08:12.15,R2L,,0000,0000,0000,,{\move(1952,1,-32,1)\q2\fs64}{\c&HD8EE54}80
+Dialogue: 0,1:08:04.05,1:08:16.05,R2L,,0000,0000,0000,,{\move(2016,1,-96,1)\q2\fs64}{\c&HDEC158}下雨！
+Dialogue: 0,1:08:07.94,1:08:19.94,R2L,,0000,0000,0000,,{\move(1952,1,-32,1)\q2\fs64}27
+Comment: NO.2640:unknow type
+Comment: NO.2641:unknow type
+Dialogue: 0,1:08:09.27,1:08:21.27,R2L,,0000,0000,0000,,{\move(2096,65,-176,65)\q2\fs64}{\c&HD8EE54}晚上见\h拜拜
+Comment: NO.2643:unknow type
+Dialogue: 0,1:08:09.27,1:08:21.27,R2L,,0000,0000,0000,,{\move(2080,129,-160,129)\q2\fs64}{\c&HDEC158}甲弹对抗！
+Comment: NO.2645:unknow type
+Comment: NO.2646:unknow type
+Dialogue: 0,1:08:11.86,1:08:23.86,R2L,,0000,0000,0000,,{\move(1952,1,-32,1)\q2\fs64}{\c&HDEC158}88
+Dialogue: 0,1:08:11.86,1:08:23.86,R2L,,0000,0000,0000,,{\move(2000,65,-80,65)\q2\fs64}{\c&HD8EE54}88888
+Dialogue: 0,1:08:13.14,1:08:25.14,R2L,,0000,0000,0000,,{\move(1968,1,-48,1)\q2\fs64}{\c&HD8EE54}886
+Dialogue: 0,1:08:13.14,1:08:25.14,R2L,,0000,0000,0000,,{\move(2016,65,-96,65)\q2\fs64}{\c&HDEC158}攻击赢
+Dialogue: 0,1:08:14.44,1:08:26.44,R2L,,0000,0000,0000,,{\move(1952,1,-32,1)\q2\fs64}{\c&HDEC158}88
+Dialogue: 0,1:08:14.44,1:08:26.44,R2L,,0000,0000,0000,,{\move(1984,65,-64,65)\q2\fs64}{\c&HDEC158}8888
+Comment: NO.2653:unknow type
+Dialogue: 0,1:08:15.76,1:08:27.76,R2L,,0000,0000,0000,,{\move(1952,1,-32,1)\q2\fs64}{\c&HDEC158}88
+Dialogue: 0,1:08:17.05,1:08:29.05,R2L,,0000,0000,0000,,{\move(2240,129,-320,129)\q2\fs64}{\c&HDEC158}三大节目伺候我一人啊
+Dialogue: 0,1:08:17.05,1:08:29.05,R2L,,0000,0000,0000,,{\move(2176,65,-256,65)\q2\fs64}{\c&HDEC158}将军终于不咳嗽了
+Dialogue: 0,1:08:17.05,1:08:29.05,R2L,,0000,0000,0000,,{\move(2048,193,-128,193)\q2\fs64}{\c&HDEC158}晚上再见
+Comment: NO.2658:unknow type
+Dialogue: 0,1:08:19.64,1:08:31.64,R2L,,0000,0000,0000,,{\move(1952,1,-32,1)\q2\fs64}{\c&HDEC158}88
+Dialogue: 0,1:08:20.94,1:08:32.94,R2L,,0000,0000,0000,,{\move(2144,65,-224,65)\q2\fs64}{\c&HDEC158}将军伤愈复出了
+Dialogue: 0,1:08:20.94,1:08:32.94,R2L,,0000,0000,0000,,{\move(1952,1,-32,1)\q2\fs64}{\c&HD8EE54}88
+Dialogue: 0,1:08:22.25,1:08:34.25,R2L,,0000,0000,0000,,{\move(2000,1,-80,1)\q2\fs64}{\c&HDEC158}7点见
+Dialogue: 0,1:08:22.25,1:08:34.25,R2L,,0000,0000,0000,,{\move(1952,129,-32,129)\q2\fs64}{\c&HDEC158}88
+Dialogue: 0,1:08:23.54,1:08:35.54,R2L,,0000,0000,0000,,{\move(1952,1,-32,1)\q2\fs64}？
+Comment: NO.2665:unknow type
+Dialogue: 0,1:08:32.64,1:08:44.64,R2L,,0000,0000,0000,,{\move(2080,1,-160,1)\q2\fs64}{\c&HDEC158}去找小郑老
+Dialogue: 0,1:08:32.64,1:08:44.64,R2L,,0000,0000,0000,,{\move(2240,65,-320,65)\q2\fs64}{\c&HDEC158}喘口气就得上晚八点档
+Dialogue: 0,1:08:33.94,1:08:45.94,R2L,,0000,0000,0000,,{\move(2144,129,-224,129)\q2\fs64}{\c&HDEC158}当那一天来临！
+Dialogue: 0,1:08:36.54,1:08:48.54,R2L,,0000,0000,0000,,{\move(2016,1,-96,1)\q2\fs64}{\c&HDEC158}晚上见
+Dialogue: 0,1:08:37.84,1:08:49.84,R2L,,0000,0000,0000,,{\move(1952,1,-32,1)\q2\fs64}{\c&HDEC158}‘
+Comment: NO.2671:unknow type
+Dialogue: 0,1:08:41.75,1:08:53.75,R2L,,0000,0000,0000,,{\move(1984,1,-64,1)\q2\fs64}{\c&HDEC158}拜拜
+Dialogue: 0,1:08:49.55,1:09:01.55,R2L,,0000,0000,0000,,{\move(2112,1,-192,1)\q2\fs64}{\c&HD8EE54}刚来就结束了
+Comment: NO.2674:unknow type
+Dialogue: 0,1:08:53.47,1:09:05.47,R2L,,0000,0000,0000,,{\move(2048,1,-128,1)\q2\fs64}察话会！
+Dialogue: 0,1:08:54.75,1:09:06.75,R2L,,0000,0000,0000,,{\move(1984,65,-64,65)\q2\fs64}{\c&HDEC158}拜拜
+Comment: NO.2677:unknow type
+Comment: NO.2678:unknow type
+Comment: NO.2679:unknow type
+Comment: NO.2680:unknow type
+Comment: NO.2681:unknow type
+Comment: NO.2682:unknow type
+Dialogue: 0,1:09:11.64,1:09:23.64,R2L,,0000,0000,0000,,{\move(1968,1,-48,1)\q2\fs64}{\c&HDEC158}888
+Dialogue: 0,1:09:15.54,1:09:27.54,R2L,,0000,0000,0000,,{\move(2048,1,-128,1)\q2\fs64}{\c&HD8EE54}开始了么
+Dialogue: 0,1:09:19.44,1:09:31.44,R2L,,0000,0000,0000,,{\move(1936,1,-16,1)\q2\fs64}{\c&HDEC158}8
+Dialogue: 0,1:10:03.64,1:10:15.64,R2L,,0000,0000,0000,,{\move(1968,1,-48,1)\q2\fs64}{\c&HDEC158}888
+Dialogue: 0,1:10:07.55,1:10:19.55,R2L,,0000,0000,0000,,{\move(1984,1,-64,1)\q2\fs64}{\c&HDEC158}？？
+Dialogue: 0,1:10:07.55,1:10:19.55,R2L,,0000,0000,0000,,{\move(1984,65,-64,65)\q2\fs64}人捏
+Dialogue: 0,1:10:27.04,1:10:39.04,R2L,,0000,0000,0000,,{\move(1952,1,-32,1)\q2\fs64}{\c&HD8EE54}？
+Comment: NO.2690:unknow type
+Comment: NO.2691:unknow type
+Dialogue: 0,1:10:36.15,1:10:48.15,R2L,,0000,0000,0000,,{\move(1952,1,-32,1)\q2\fs64}嗝
+Dialogue: 0,1:10:40.05,1:10:52.05,R2L,,0000,0000,0000,,{\move(2080,1,-160,1)\q2\fs64}{\c&HDEC158}技术有限？
+Dialogue: 0,1:10:47.84,1:10:59.84,R2L,,0000,0000,0000,,{\move(2016,1,-96,1)\q2\fs64}{\c&HDEC158}？？？
+Dialogue: 0,1:10:50.45,1:11:02.45,R2L,,0000,0000,0000,,{\move(1968,1,-48,1)\q2\fs64}{\c&HDEC158}886
+Dialogue: 0,1:11:52.84,1:12:04.84,R2L,,0000,0000,0000,,{\move(2176,1,-256,1)\q2\fs64}{\c&HD8EE54}结束啦吃晚饭去了
+Dialogue: 0,1:11:55.44,1:12:07.44,R2L,,0000,0000,0000,,{\move(2080,1,-160,1)\q2\fs64}{\c&HDEC158}已经结束啦
+Dialogue: 0,1:12:00.64,1:12:12.64,R2L,,0000,0000,0000,,{\move(2048,1,-128,1)\q2\fs64}{\c&HDEC158}啊？刚来
+Dialogue: 0,1:12:04.54,1:12:16.54,R2L,,0000,0000,0000,,{\move(2016,1,-96,1)\q2\fs64}{\c&HDEC158}完了？
+Comment: NO.2700:unknow type
+Comment: NO.2701:unknow type
+Dialogue: 0,1:12:08.45,1:12:20.45,R2L,,0000,0000,0000,,{\move(2048,1,-128,1)\q2\fs64}{\c&HDEC158}结束了？
+Comment: NO.2703:unknow type
+Dialogue: 0,1:12:20.15,1:12:32.15,R2L,,0000,0000,0000,,{\move(2144,1,-224,1)\q2\fs64}{\c&HD8EE54}怎么就结束了的
+Comment: NO.2705:unknow type
+Dialogue: 0,1:12:27.95,1:12:39.95,R2L,,0000,0000,0000,,{\move(2080,1,-160,1)\q2\fs64}{\c&HDEC158}没有预告吗
+Comment: NO.2707:unknow type
+Dialogue: 0,1:13:01.75,1:13:13.75,R2L,,0000,0000,0000,,{\move(2160,1,-240,1)\q2\fs64}{\c&HDEC158}[贝拉kira_拜托]
+Dialogue: 0,1:14:10.64,1:14:22.64,R2L,,0000,0000,0000,,{\move(1984,1,-64,1)\q2\fs64}{\c&HD8EE54}2333
+Dialogue: 0,1:16:18.04,1:16:30.04,R2L,,0000,0000,0000,,{\move(1984,1,-64,1)\q2\fs64}{\c&HDEC158}upup
+Dialogue: 0,1:16:19.36,1:16:31.36,R2L,,0000,0000,0000,,{\move(2048,65,-128,65)\q2\fs64}{\c&HDEC158}有龙则灵
