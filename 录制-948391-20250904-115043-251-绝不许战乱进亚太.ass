@@ -1,0 +1,25 @@
+[Script Info]
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 1920
+PlayResY: 1080
+Timer: 100.0000
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+
+Style: R2L,Microsoft YaHei,64,&H40FFFFFF,&H00FFFFFF,&H00000000,&H1E6A5149,1,0,0,0,100.00,100.00,0.00,0.00,1,0,2,8,0,0,0,1
+Style: L2R,Microsoft YaHei,64,&H40FFFFFF,&H00FFFFFF,&H00000000,&H1E6A5149,1,0,0,0,100.00,100.00,0.00,0.00,1,0,2,8,0,0,0,1
+Style: TOP,Microsoft YaHei,64,&H40FFFFFF,&H00FFFFFF,&H00000000,&H1E6A5149,1,0,0,0,100.00,100.00,0.00,0.00,1,0,2,8,0,0,0,1
+Style: BTM,Microsoft YaHei,64,&H40FFFFFF,&H00FFFFFF,&H00000000,&H1E6A5149,1,0,0,0,100.00,100.00,0.00,0.00,1,0,2,8,0,0,0,1
+Style: SP,Microsoft YaHei,64,&H00FFFFFF,&H00FFFFFF,&H00000000,&H1E6A5149,1,0,0,0,100.00,100.00,0.00,0.00,1,0,2,7,0,0,0,1
+Style: message_box,Microsoft YaHei,38,&H00FFFFFF,&H00FFFFFF,&H00000000,&H1E6A5149,1,0,0,0,100.00,100.00,0.00,0.00,1,0,2,7,0,0,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:07:28.27,0:07:40.27,R2L,,0000,0000,0000,,{\move(2048,1,-128,1)\q2\fs64}有同声吗
+Dialogue: 0,0:11:49.55,0:12:01.55,R2L,,0000,0000,0000,,{\move(1984,1,-64,1)\q2\fs64}来了
+Dialogue: 0,0:12:10.34,0:12:22.34,R2L,,0000,0000,0000,,{\move(1952,1,-32,1)\q2\fs64}了
+Dialogue: 0,0:13:41.15,0:13:53.15,R2L,,0000,0000,0000,,{\move(1984,1,-64,1)\q2\fs64}打卡
+Dialogue: 0,0:16:05.53,0:16:17.53,R2L,,0000,0000,0000,,{\move(1984,1,-64,1)\q2\fs64}打卡
+Dialogue: 0,0:41:43.22,0:41:55.22,R2L,,0000,0000,0000,,{\move(1984,1,-64,1)\q2\fs64}打卡
